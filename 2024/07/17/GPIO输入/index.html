@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Izumi Sagiri</title>
+    <title>GPIO输入 | Izumi Sagiri</title>
     <meta name="author" content="Izumi Sagiri" />
     <meta name="description" content="分享平时的技术和生活" />
     <meta name="keywords" content="" />
@@ -37,6 +37,10 @@
 
 
 <script src="/js/lib/preview.js"></script>
+
+
+
+
 
 
 
@@ -150,68 +154,39 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <div id="timeline-wrap" ref="timeline">
+            <div class="article">
+    <div>
+        <h1>GPIO输入</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/7/17
+        </span>
         
-        <div class="timeline" data-title="welcome!">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/5/9</div>
-                <a href="/2024/05/09/Welcome/">
-                    <h3>Welcome!</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="学习笔记">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/">
-                    <h3>学习笔记</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="gpio输出">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/">
-                    <h3>GPIO输出</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="gpio输入">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/">
-                    <h3>GPIO输入</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
         
     </div>
+    
+    <div class="content" v-pre>
+        <p>本节课目标</p>
+<ol>
+<li>按键控制LED</li>
+<li>光敏传感器控制蜂鸣器</li>
+</ol>
+<p>C语言数据类型<br>typedef<br>宏定义<br>指针</p>
+<p>按键介绍<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-8.png" alt="alt text"></p>
+<p>处理按键抖动的方法：对于按键抖动进行过滤</p>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
 </div>
 
             <footer id="footer">
@@ -242,6 +217,12 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+
+
     
 </body>
 </html>
