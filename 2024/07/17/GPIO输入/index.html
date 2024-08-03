@@ -48,7 +48,8 @@
 
 <link rel="stylesheet" href="/css/main.css" />
 
-<meta name="generator" content="Hexo 7.2.0"></head>
+<meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="Izumi Sagiri" type="application/atom+xml">
+</head>
 <body>
     <div id="layout">
         <transition name="fade">
@@ -170,17 +171,32 @@
     </div>
     
     <div class="content" v-pre>
-        <p>##本节课目标</p>
-<ol>
+        <h2 id="本节课目标"><a href="#本节课目标" class="headerlink" title="本节课目标"></a>本节课目标</h2><ol>
 <li>按键控制LED </li>
 <li>光敏传感器控制蜂鸣器</li>
 </ol>
 <p>C语言数据类型<br>typedef<br>宏定义<br>指针</p>
 <p>###按键介绍<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-8.png" alt="alt text"></p>
 <p>处理按键抖动的方法：对于按键抖动进行过滤</p>
-<p>###传感器模块介绍</p>
-<p><strong>光敏电阻传感器</strong><br><strong>热敏电阻传感器</strong><br><strong>对射式红外传感器</strong><br><strong>反射式红外传感器</strong></p>
+<h3 id="传感器模块介绍"><a href="#传感器模块介绍" class="headerlink" title="传感器模块介绍"></a>传感器模块介绍</h3><p><strong>光敏电阻传感器</strong><br><strong>热敏电阻传感器</strong><br><strong>对射式红外传感器</strong><br><strong>反射式红外传感器</strong></p>
 <p><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image.png" alt="alt text"></p>
+<h3 id="硬件电路"><a href="#硬件电路" class="headerlink" title="硬件电路"></a>硬件电路</h3><p><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-1.png" alt="alt text"></p>
+<h2 id="C语言部分学习"><a href="#C语言部分学习" class="headerlink" title="C语言部分学习"></a>C语言部分学习</h2><h3 id="c语言数据类型"><a href="#c语言数据类型" class="headerlink" title="c语言数据类型"></a>c语言数据类型</h3><p><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-2.png" alt="alt text"></p>
+<p>注意stdint关键字，ST关键字</p>
+<p>c语言宏定义</p>
+<p>typedef 只针对于变量类型<br>更安全 </p>
+<p>区别</p>
+<p>结构体:<br>组合不同的结构类型</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a;</span><br><span class="line">    <span class="type">int</span> b[<span class="number">5</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="class"><span class="keyword">struct</span>&#123;</span><span class="type">char</span> x;<span class="type">int</span> y;<span class="type">float</span> z;&#125; c;</span><br><span class="line">        </span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>枚举</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">enum</span>&#123;</span>M =<span class="number">1</span>; T = <span class="number">2</span>; W = <span class="number">3</span>&#125; week; <span class="comment">//顺序值，可以不写=2,=3</span></span><br><span class="line">    </span><br><span class="line">    week = M;</span><br><span class="line">    week = <span class="number">2</span>;</span><br><span class="line">    </span><br><span class="line">    print</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在给定的参数里面赋值</p>
+<p>枚举也是一个宏定义的集合</p>
+<p>#3.4按键控制LED<br>使用的接法，第一种<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-3.png" alt="alt text"></p>
+<p>模块化编程的方式</p>
 
     </div>
     

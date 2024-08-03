@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Izumi Sagiri</title>
+    <title>OLED调试工具 | Izumi Sagiri</title>
     <meta name="author" content="Izumi Sagiri" />
     <meta name="description" content="分享平时的技术和生活" />
     <meta name="keywords" content="" />
@@ -37,6 +37,10 @@
 
 
 <script src="/js/lib/preview.js"></script>
+
+
+
+
 
 
 
@@ -151,96 +155,38 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <div id="timeline-wrap" ref="timeline">
+            <div class="article">
+    <div>
+        <h1>OLED调试工具</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/8/2
+        </span>
         
-        <div class="timeline" data-title="welcome!">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/5/9</div>
-                <a href="/2024/05/09/Welcome/">
-                    <h3>Welcome!</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="学习笔记">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/">
-                    <h3>学习笔记</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="gpio输出">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/">
-                    <h3>GPIO输出</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="gpio输入">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/">
-                    <h3>GPIO输入</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="支教日志">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97/">
-                    <h3>支教日志</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="oled调试工具">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/2</div>
-                <a href="/2024/08/02/OLED%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7/">
-                    <h3>OLED调试工具</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
         
     </div>
+    
+    <div class="content" v-pre>
+        <p><strong>OLED作为调试的显示屏，方便调试程序</strong></p>
+<h2 id="调试方式"><a href="#调试方式" class="headerlink" title="调试方式"></a>调试方式</h2><p><img src="/2024/08/02/OLED%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7/image-4.png" alt="alt text"></p>
+<p>其他方法<br>点灯调试法：<br>注释调试法:<br>对照法:</p>
+<p>缩小范围，控制变量，对比测试</p>
+<h2 id="OLED显示屏"><a href="#OLED显示屏" class="headerlink" title="OLED显示屏"></a>OLED显示屏</h2><p><img src="/2024/08/02/OLED%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7/image-5.png" alt="alt text"><br>有机发光的屏幕<br>硬件电路部分<br><img src="/2024/08/02/OLED%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7/image-6.png" alt="alt text"></p>
+<p>OLED驱动函数<br><img src="/2024/08/02/OLED%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7/image-7.png" alt="alt text"></p>
+<p>同时也能生成中文，图像等内容</p>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
 </div>
 
             <footer id="footer">
@@ -271,6 +217,12 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+
+
     
 </body>
 </html>
