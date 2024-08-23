@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2024-08-12T09:05:43.747Z</updated>
+  <updated>2024-08-23T14:28:28.228Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>k210</title>
+    <link href="https://jiyexingzou.github.io/2024/08/23/k210/"/>
+    <id>https://jiyexingzou.github.io/2024/08/23/k210/</id>
+    <published>2024-08-23T14:28:28.000Z</published>
+    <updated>2024-08-23T14:28:28.228Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>USART串口协议</title>
+    <link href="https://jiyexingzou.github.io/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/"/>
+    <id>https://jiyexingzou.github.io/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/</id>
+    <published>2024-08-18T14:24:03.000Z</published>
+    <updated>2024-08-23T14:32:02.890Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="通信接口类型"><a href="#通信接口类型" class="headerlink" title="通信接口类型"></a>通信接口类型</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image.png" alt="alt text"><br>双工模式：<br>全双工：通信双方能够同时进行双向通信</p><h2 id="串口发送"><a href="#串口发送" class="headerlink" title="串口发送"></a>串口发送</h2><h2 id="串口发送-接收"><a href="#串口发送-接收" class="headerlink" title="串口发送+接收"></a>串口发送+接收</h2><p>串口时序</p><h2 id="串口通信"><a href="#串口通信" class="headerlink" title="串口通信"></a>串口通信</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-1.png" alt="alt text"></p><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-2.png" alt="alt text"></p><h2 id="电平标准"><a href="#电平标准" class="headerlink" title="电平标准"></a>电平标准</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-3.png" alt="alt text"></p><h2 id="串口参数及时序"><a href="#串口参数及时序" class="headerlink" title="串口参数及时序"></a>串口参数及时序</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-4.png" alt="alt text"></p><h2 id="USART外设"><a href="#USART外设" class="headerlink" title="USART外设"></a>USART外设</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-5.png" alt="alt text"></p><h2 id="USART框图"><a href="#USART框图" class="headerlink" title="USART框图"></a>USART框图</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-6.png" alt="alt text"></p><h2 id="波特率发生器"><a href="#波特率发生器" class="headerlink" title="波特率发生器"></a>波特率发生器</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-7.png" alt="alt text"></p><h2 id="HEX数据包"><a href="#HEX数据包" class="headerlink" title="HEX数据包"></a>HEX数据包</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-8.png" alt="alt text"><br>固定包长和可变包长的选择问题</p><h2 id="文本数据包"><a href="#文本数据包" class="headerlink" title="文本数据包"></a>文本数据包</h2><p><img src="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image-9.png" alt="alt text"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;通信接口类型&quot;&gt;&lt;a href=&quot;#通信接口类型&quot; class=&quot;headerlink&quot; title=&quot;通信接口类型&quot;&gt;&lt;/a&gt;通信接口类型&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TIM输出比较</title>
+    <link href="https://jiyexingzou.github.io/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/"/>
+    <id>https://jiyexingzou.github.io/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/</id>
+    <published>2024-08-12T09:07:14.000Z</published>
+    <updated>2024-08-18T14:22:24.085Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="输出比较简介-OC"><a href="#输出比较简介-OC" class="headerlink" title="输出比较简介 OC"></a>输出比较简介 OC</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-1.png" alt="alt text"></p><p>用于输出PWM波形</p><h2 id="PWM波形"><a href="#PWM波形" class="headerlink" title="PWM波形"></a>PWM波形</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-2.png" alt="alt text"></p><p>脉冲宽度调制<br>等效的生成一个模拟信号的输出<br>具有惯性的系统才能使用PWM</p><p>PWM三个参数<br>频率<br>占空比等效关系是线性的<br>分辨率</p><h2 id="输出比较通道"><a href="#输出比较通道" class="headerlink" title="输出比较通道"></a>输出比较通道</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-3.png" alt="alt text"><br><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-4.png" alt="alt text"></p><p>输出比较模式<br><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-5.png" alt="alt text"></p><p>PWM模式1<br>PWM模式2</p><h2 id="PWM基本结构"><a href="#PWM基本结构" class="headerlink" title="PWM基本结构"></a>PWM基本结构</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-6.png" alt="alt text"></p><h2 id="PWM参数计算"><a href="#PWM参数计算" class="headerlink" title="PWM参数计算"></a>PWM参数计算</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-7.png" alt="alt text"></p><h2 id="STM32外部设备"><a href="#STM32外部设备" class="headerlink" title="STM32外部设备"></a>STM32外部设备</h2><p>舵机<br>直流电机</p><p>电机驱动模块</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;输出比较简介-OC&quot;&gt;&lt;a href=&quot;#输出比较简介-OC&quot; class=&quot;headerlink&quot; title=&quot;输出比较简介 OC&quot;&gt;&lt;/a&gt;输出比较简介 OC&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2024/08/12/TIM%E8%BE%93%E5%87%B</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>TIM定时中断</title>

@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>Archives | Izumi Sagiri</title>
+    <title>Izumi Sagiri</title>
     <meta name="author" content="Izumi Sagiri" />
     <meta name="description" content="分享平时的技术和生活" />
     <meta name="keywords" content="" />
@@ -41,6 +41,8 @@
 
 
 
+
+<script src="/js/lib/home.js"></script>
 
 <link rel="stylesheet" href="/css/main.css" />
 
@@ -151,166 +153,112 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
+            <div id="home-head">
+    <div
+        id="home-background"
+        ref="homeBackground"
+        data-images="/images/background.png"
+    ></div>
+    <div id="home-info" @click="homeClick">
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="info">
+            <div class="wrap">
+                <h1>Izumi Sagiri</h1>
+                <h3>个人博客</h3>
+                <h5>分享平时的技术和生活</h5>
+            </div>
+        </span>
+    </div>
+</div>
+<div
+    id="home-posts-wrap"
+    ref="homePostsWrap"
+    true
+>
+    <div id="home-posts">
+        
+
+<div class="post">
+    <a href="/2024/05/09/Welcome/">
+        <h2 class="post-title">Welcome!</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/5/9
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
             
-<div id="archives">
+            <h1 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h1><p>大家好，这里是Izumi Sagiri，我是和泉纱雾的粉丝，所以取了这个名字，大家可以叫我Sagiri。我现在是UESTC信息与软件工程学院的23级的学生，在这个网站里我会分享我平时学习技术和知识时的一些笔记，同样也会分享我在追番或者推galgame时的一些感受。</p>
+<center>  <!--开始居中对齐-->
+
+<p><img src="/2024/05/09/Welcome/80880468_p0_master1200.jpg" alt="纱雾镇楼" title="你看我老婆干什么"></p>
+</center> <!--结束居中对齐-->
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2024/05/09/Welcome/" class="go-post">阅读全文</a>
+</div>
+
+
+        <div class="page-current">
     
-    <div id="timeline-wrap" ref="timeline">
-        
-        <div class="timeline" data-title="welcome!">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/5/9</div>
-                <a href="/2024/05/09/Welcome/">
-                    <h3>Welcome!</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
+    <a class="page-num" href="/">
+        <i class="fa-solid fa-caret-left fa-fw"></i>
+    </a>
+    <a class="page-num" href="/">1</a>
+    <span class="page-omit">...</span>
+    
+    <span class="current">2</span>
+    
+    
+    
+    
+</div>
+
+    </div>
+    
+    <div id="home-card">
+        <div id="card-style">
+    <div id="card-div">
+        <div class="avatar">
+            <img src="/images/avatar.jpg" alt="avatar" />
+        </div>
+        <div class="name">Izumi Sagiri</div>
+        <div class="description">
+            <p>Description<br>我永远喜欢和泉纱雾</p>
+
         </div>
         
-        <div class="timeline" data-title="学习笔记">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/">
-                    <h3>学习笔记</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
         
-        <div class="timeline" data-title="gpio输出">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/">
-                    <h3>GPIO输出</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
+        <div class="friend-links">
+            
+            <div class="friend-link">
+                <a target="_blank" rel="noopener" href="https://argvchs.github.io">Argvchs</a>
             </div>
-        </div>
-        
-        <div class="timeline" data-title="gpio输入">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/">
-                    <h3>GPIO输入</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="支教日志">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/7/17</div>
-                <a href="/2024/07/17/%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97/">
-                    <h3>支教日志</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="oled调试工具">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/2</div>
-                <a href="/2024/08/02/OLED%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7/">
-                    <h3>OLED调试工具</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="oled显示屏">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/3</div>
-                <a href="/2024/08/03/OLED%E6%98%BE%E7%A4%BA%E5%B1%8F/">
-                    <h3>OLED显示屏</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="tim定时中断">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/3</div>
-                <a href="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/">
-                    <h3>TIM定时中断</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="tim输出比较">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/12</div>
-                <a href="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/">
-                    <h3>TIM输出比较</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="usart串口协议">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/18</div>
-                <a href="/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/">
-                    <h3>USART串口协议</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="k210">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/23</div>
-                <a href="/2024/08/23/k210/">
-                    <h3>k210</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
+            
         </div>
         
     </div>
+</div>
+
+    </div>
+    
 </div>
 
             <footer id="footer">
