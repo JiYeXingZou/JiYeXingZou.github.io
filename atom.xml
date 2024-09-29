@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2024-08-23T14:28:28.228Z</updated>
+  <updated>2024-08-23T14:37:56.669Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -21,8 +21,17 @@
     <link href="https://jiyexingzou.github.io/2024/08/23/k210/"/>
     <id>https://jiyexingzou.github.io/2024/08/23/k210/</id>
     <published>2024-08-23T14:28:28.000Z</published>
-    <updated>2024-08-23T14:28:28.228Z</updated>
+    <updated>2024-08-23T14:37:56.669Z</updated>
     
+    <content type="html"><![CDATA[<p>什么是Maix bit，它和K210是什么关系；连接硬件并测试</p><p>MAIX Bit开发板是SiPEED公司MAIX产品线的一员，基于嘉楠堪智科技的边缘智能计算芯片K210(RISC-V架构 64位双核)设计的一款AIOT开发板</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;什么是Maix bit，它和K210是什么关系；连接硬件并测试&lt;/p&gt;
+&lt;p&gt;MAIX Bit开发板是SiPEED公司MAIX产品线的一员，基于嘉楠堪智科技的边缘智能计算芯片K210(RISC-V架构 64位双核)设计的一款AIOT开发板&lt;/p&gt;
+</summary>
+      
     
     
     
