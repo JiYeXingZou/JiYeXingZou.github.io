@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2024-08-23T14:37:56.669Z</updated>
+  <updated>2024-10-07T10:15:14.869Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用网站指北</title>
+    <link href="https://jiyexingzou.github.io/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/"/>
+    <id>https://jiyexingzou.github.io/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/</id>
+    <published>2024-10-07T10:12:49.000Z</published>
+    <updated>2024-10-07T10:15:14.869Z</updated>
+    
+    <content type="html"><![CDATA[<p>计算机教育中缺失的一课<br><a href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a><br>CS自学指南<br><a href="https://csdiy.wiki/">https://csdiy.wiki/</a><br>微软官方的Learn<br><a href="https://learn.microsoft.com/zh-cn/">https://learn.microsoft.com/zh-cn/</a><br>GitHub<br><a href="https://github.com/">https://github.com/</a><br>语言学习<br><a href="https://www.runoob.com/">https://www.runoob.com/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;计算机教育中缺失的一课&lt;br&gt;&lt;a href=&quot;https://missing-semester-cn.github.io/&quot;&gt;https://missing-semester-cn.github.io/&lt;/a&gt;&lt;br&gt;CS自学指南&lt;br&gt;&lt;a href=&quot;https://</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派的环境配置遇见的问题</title>
+    <link href="https://jiyexingzou.github.io/2024/10/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%9A%84%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>https://jiyexingzou.github.io/2024/10/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%9A%84%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2024-10-06T13:05:07.000Z</published>
+    <updated>2024-10-06T13:06:35.033Z</updated>
+    
+    <content type="html"><![CDATA[<p>在配置树莓派的基础环境时，由于我个人没有屏幕，所以需要远程获取树莓派的ip地址。又由于我身边又没有网线，所以我给出我的解决方案</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在配置树莓派的基础环境时，由于我个人没有屏幕，所以需要远程获取树莓派的ip地址。又由于我身边又没有网线，所以我给出我的解决方案&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>k210</title>

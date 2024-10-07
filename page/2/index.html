@@ -182,6 +182,84 @@
         
 
 <div class="post">
+    <a href="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/">
+        <h2 class="post-title">GPIO输出</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/7/17
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p>GPIO通用输入输出口<br>可配置为8中输入输出模式<br>引脚电平：0V~3.3v，部分引脚可以容忍5V<br>输出模式下：可控制端口输出高低电平，用以驱动LED，控制蜂鸣器。模拟通讯协议输出时序等<br>输入模式：可读取端口的高低电平或电压，用于读取按键输入，外接模块电平信号输入，ADC电压采集，模拟通信协议接受数据等<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image.png" alt="alt text"></p>
+<p>施密特触发器：高于上线和低于下限，输出才会变化<br>将信号进行整形<br>mos管<br>推挽，开漏或关闭<br>推挽：高低电平都有输出模式<br>开漏：只有低电平有输出模式<br>关闭：两个mos管都无效<br>GPIO模式<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-2.png" alt="alt text"></p>
+<p>浮空&#x2F;上拉&#x2F;下拉输入</p>
+<p><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-3.png" alt="alt text"></p>
+<p>模拟输入<br>使用ADC配置为模拟输入<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-4.png" alt="alt text"></p>
+<p>开漏输出和推挽输出</p>
+<p><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-5.png" alt="alt text"></p>
+<p>复用开漏输出&#x2F;复用推挽输出<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-6.png" alt="alt text"></p>
+<p>LED和蜂鸣器介绍<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-7.png" alt="alt text"></p>
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/">
+        <h2 class="post-title">学习笔记</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/7/17
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p><strong>STM32</strong>:STM32是ST公司基于ARMCortex-M内核开发的32位微控制器<br>ST：公司，M:Microcontroller<br>微控制器：MCU，单片机<br>基于ARM内核的芯片<br>STM32 f1</p>
+<p>ARM：ARM公司还有ARM处理器内核<br>Cortex-A系列：高端应用<br>Cortex-R系列：实时<br>Cortex-M系列：单片机领域</p>
+<p><strong>stm32f103c8t6</strong><br>系列:stm32f1<br>内核:ARM Cortex-M3<br>主频:72MHz<br>RAM:20k(SRAM)运行内存<br>ROM：64k（Flash）程序存储器<br>供电:2.0~3.6V (标准3.3v)<br>封装:LQFP48</p>
+<p><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image.png" alt="alt text"></p>
+<p>STM32  F:通用类型  103：增强型  C：引脚数目48  8：64k字节的闪存储存器  T：LQFP封装  6：-40~85度</p>
+<p><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-1.png" alt="alt text"></p>
+<p>[2-2]新建工程</p>
+<p>基于寄存器<br>基于标准库（本课程使用）,库函数更加明显<br>基于HAL库的方式</p>
+<p>芯片类型的启动文件选择<br><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-2.png" alt="alt text"><br><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-3.png" alt="alt text"></p>
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
     <a href="/2024/05/09/Welcome/">
         <h2 class="post-title">Welcome!</h2>
     </a>
