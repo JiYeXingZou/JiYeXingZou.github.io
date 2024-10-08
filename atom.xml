@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2024-10-08T15:06:42.342Z</updated>
+  <updated>2024-10-08T15:10:08.861Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>K210快速上手</title>
+    <link href="https://jiyexingzou.github.io/2024/10/08/K210%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/"/>
+    <id>https://jiyexingzou.github.io/2024/10/08/K210%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/</id>
+    <published>2024-10-08T15:09:39.000Z</published>
+    <updated>2024-10-08T15:10:08.861Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/small_po_kid/article/details/113762110">https://blog.csdn.net/small_po_kid/article/details/113762110</a></p><p>咱先放个网址在这里，之后再填坑</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/small_po_kid/article/details/113762110&quot;&gt;https://blog.csdn.net/small_po_kid/article/details/113762110&lt;/a&gt;&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Ollama本地部署</title>
