@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2024-10-15T08:32:22.020Z</updated>
+  <updated>2024-10-21T07:41:11.625Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker入门与配置</title>
+    <link href="https://jiyexingzou.github.io/2024/10/19/docker%E5%85%A5%E9%97%A8%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+    <id>https://jiyexingzou.github.io/2024/10/19/docker%E5%85%A5%E9%97%A8%E4%B8%8E%E9%85%8D%E7%BD%AE/</id>
+    <published>2024-10-19T07:17:01.000Z</published>
+    <updated>2024-10-21T07:41:11.625Z</updated>
+    
+    <content type="html"><![CDATA[<p>docker官方文档:<br><a href="https://docs.docker.com/get-started/introduction/get-docker-desktop/">https://docs.docker.com/get-started/introduction/get-docker-desktop/</a></p><p>first docker</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;docker官方文档:&lt;br&gt;&lt;a href=&quot;https://docs.docker.com/get-started/introduction/get-docker-desktop/&quot;&gt;https://docs.docker.com/get-started/introdu</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>批评与自我批评</title>
@@ -103,9 +123,9 @@
     <link href="https://jiyexingzou.github.io/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/"/>
     <id>https://jiyexingzou.github.io/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/</id>
     <published>2024-10-07T10:12:49.000Z</published>
-    <updated>2024-10-14T01:45:13.423Z</updated>
+    <updated>2024-10-16T16:46:49.016Z</updated>
     
-    <content type="html"><![CDATA[<p>计算机教育中缺失的一课<br><a href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a><br>CS自学指南<br><a href="https://csdiy.wiki/">https://csdiy.wiki/</a><br>微软官方的Learn<br><a href="https://learn.microsoft.com/zh-cn/">https://learn.microsoft.com/zh-cn/</a><br>GitHub<br><a href="https://github.com/">https://github.com/</a><br>语言学习<br><a href="https://www.runoob.com/">https://www.runoob.com/</a><br>kicad官网指南<br><a href="https://dev-docs.kicad.org/zh-cn/">https://dev-docs.kicad.org/zh-cn/</a></p>]]></content>
+    <content type="html"><![CDATA[<p>计算机教育中缺失的一课<br><a href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a><br>CS自学指南<br><a href="https://csdiy.wiki/">https://csdiy.wiki/</a><br>微软官方的Learn<br><a href="https://learn.microsoft.com/zh-cn/">https://learn.microsoft.com/zh-cn/</a><br>GitHub<br><a href="https://github.com/">https://github.com/</a><br>语言学习<br><a href="https://www.runoob.com/">https://www.runoob.com/</a><br>kicad官网指南<br><a href="https://dev-docs.kicad.org/zh-cn/">https://dev-docs.kicad.org/zh-cn/</a><br>renpy引擎官方文档<br><a href="https://doc.renpy.cn/zh-CN">https://doc.renpy.cn/zh-CN</a></p>]]></content>
     
     
       
