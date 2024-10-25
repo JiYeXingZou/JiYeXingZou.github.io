@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <title>竞赛分享 | Izumi Sagiri</title>
+    <meta name="author" content="Izumi Sagiri" />
+    <meta name="description" content="分享平时的技术和生活" />
+    <meta name="keywords" content="" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="icon" href="/images/avatar.jpg" />
+    <link rel="preconnect" href="https://s4.zstatic.net" />
+<script src="https://s4.zstatic.net/ajax/libs/vue/3.3.7/vue.global.prod.min.js"></script>
+<link rel="stylesheet" href="https://s4.zstatic.net/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.cn" />
+<link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin />
+<link
+    rel="stylesheet"
+    href="https://fonts.googleapis.cn/css2?family=Fira+Code:wght@400;500;600;700&family=Lexend:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap"
+/>
+<script> const mixins = {}; </script>
+
+<script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=default"></script>
+
+
+<script src="https://s4.zstatic.net/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://s4.zstatic.net/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+<link
+    rel="stylesheet"
+    href="https://s4.zstatic.net/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+/>
+<script src="/js/lib/highlight.js"></script>
+
+
+
+<script src="/js/lib/preview.js"></script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.css" />
+
+<meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/atom.xml" title="Izumi Sagiri" type="application/atom+xml">
+</head>
+<body>
+    <div id="layout">
+        <transition name="fade">
+            <div id="loading" v-show="loading">
+                <div id="loading-circle">
+                    <h2>LOADING</h2>
+                    <p>加载过慢请开启缓存 浏览器默认开启</p>
+                    <img src="/images/loading.gif" />
+                </div>
+            </div>
+        </transition>
+        <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
+    <nav id="desktop-menu">
+        <a class="title" href="/">
+            <span>IZUMI SAGIRI</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;Home</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;About</span>
+        </a>
+        
+        <a href="/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;Archives</span>
+        </a>
+        
+        <a href="/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;Categories</span>
+        </a>
+        
+        <a href="/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;Tags</span>
+        </a>
+        
+    </nav>
+    <nav id="mobile-menu">
+        <div class="title" @click="showMenuItems = !showMenuItems">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;IZUMI SAGIRI</span>
+        </div>
+        <transition name="slide">
+            <div class="items" v-show="showMenuItems">
+                
+                <a href="/">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-house fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">Home</div>
+                    </div>
+                </a>
+                
+                <a href="/about">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-id-card fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">About</div>
+                    </div>
+                </a>
+                
+                <a href="/archives">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-box-archive fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">Archives</div>
+                    </div>
+                </a>
+                
+                <a href="/categories">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-bookmark fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">Categories</div>
+                    </div>
+                </a>
+                
+                <a href="/tags">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-tags fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">Tags</div>
+                    </div>
+                </a>
+                
+            </div>
+        </transition>
+    </nav>
+</div>
+<transition name="fade">
+    <div id="menu-curtain" @click="showMenuItems = !showMenuItems" v-show="showMenuItems"></div>
+</transition>
+
+        <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
+            <div class="article">
+    <div>
+        <h1>竞赛分享</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/10/25
+        </span>
+        
+        
+    </div>
+    
+    <div class="content" v-pre>
+        <p>服创，计设，华为ICT大赛，蓝桥杯等比赛经验分享</p>
+<h1 id="1-电子科技大学保研政策"><a href="#1-电子科技大学保研政策" class="headerlink" title="1. 电子科技大学保研政策"></a>1. 电子科技大学保研政策</h1><p>信软官网搜推免.</p>
+<p>保研流程<br>排名百分之29左右<br>保研名额<br>科研经历</p>
+<p>注意前五学期成绩排名<br>我还有3&#x2F;5的机会,抓住机会</p>
+<p>保研综合测评成绩</p>
+<h1 id="学科竞赛"><a href="#学科竞赛" class="headerlink" title="学科竞赛"></a>学科竞赛</h1><p>能力培养:编程能力,技术能力,系统能力</p>
+<p>就业：百度之星，大疆robomaster，robocon，华为ICT大赛。<br>竞赛中提出的算法创新<br>知识产权，专利，论文.</p>
+<p>完善的竞赛保障</p>
+<p>国三才不会处于劣势</p>
+<p>就业向:<br>高水平企业赞助硬核比赛</p>
+<p>服创，计设，蓝桥，信安。ppt大赛<br>网挑：中国高校计算机大赛</p>
+<p>服创项目投计算机设计大赛</p>
+<p>嵌入式:全国大学生嵌入式芯片与系统设计大赛</p>
+<p>蓝桥杯：电子赛难度低于软件赛</p>
+<p>ppt大赛<br>逻辑是否落地，需求是否真实，吹的天花乱坠<br>正态分布 &#x3D; 高斯分布<br>算法创新，名字起的长一点。高大上</p>
+<p>找人采访，比如找公安局的民警采访，<br>找公司让人签署合同，让别人感觉你的非常高级.</p>
+<p>最重要的是要志同道合。</p>
+<p>组队阶段保证志向，队友要负责，<br>确定方向是要保研</p>
+<p>戴瑞婷老师！！！！</p>
+<h2 id="组队"><a href="#组队" class="headerlink" title="组队"></a>组队</h2><p>开发技术需要覆盖:技术栈：前后端，算法，(硬件)</p>
+<p>软实力需要覆盖：审美水平在线(及其重要),视频剪辑，外箱点的，擅长演讲的，细心的<br>没有覆盖这些怎么办呢？<br>    淘宝，小红书，咸鱼外包。<br>    每个组一定会有优势方案</p>
+<p>去小红书找做ppt的。<br>个人建议不要负责躲雨两个项目。</p>
+<h2 id="团队合作"><a href="#团队合作" class="headerlink" title="团队合作"></a>团队合作</h2><p>服创大赛命题，</p>
+<p>尽量寒假内完成项目开发。前端做的很美观，精细.</p>
+<p>算法，复现，改进，顶会高水平论文。</p>
+<p>团队沟通<br>    每周开会</p>
+<p>使用飞书知识库<br>    十分遍历的多人在线合作平台</p>
+<p>多和指导老师，学长学姐沟通</p>
+<h1 id="服创"><a href="#服创" class="headerlink" title="服创"></a>服创</h1><p>视频做的好<br>服务外包</p>
+<p>有硬件是超级加分乡</p>
+<h1 id="计设"><a href="#计设" class="headerlink" title="计设"></a>计设</h1><p>评委几乎没有懂计算机技术的</p>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+            <footer id="footer">
+    <div id="footer-wrap">
+        <div>
+            &copy;
+            2022 - 2024 Izumi Sagiri
+            <span id="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            &commat;Izumi Sagiri
+        </div>
+        <div>
+            Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
+            <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
+        </div>
+        
+    </div>
+</footer>
+
+        </div>
+        
+        <transition name="fade">
+            <div id="preview" ref="preview" v-show="previewShow">
+                <img id="preview-content" ref="previewContent" />
+            </div>
+        </transition>
+        
+    </div>
+    <script src="/js/main.js"></script>
+    
+    
+
+
+
+
+    
+</body>
+</html>
