@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2024-10-25T09:43:05.558Z</updated>
+  <updated>2024-11-25T13:27:52.387Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>近期目标与反思</title>
+    <link href="https://jiyexingzou.github.io/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/"/>
+    <id>https://jiyexingzou.github.io/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/</id>
+    <published>2024-11-25T12:49:44.000Z</published>
+    <updated>2024-11-25T13:27:52.387Z</updated>
+    
+    <content type="html"><![CDATA[<p>好久没更新个人网站了，来冒个泡</p><p>还是渐渐走上了正轨</p><p>开始备赛，组好了队，甚至还有学长帮忙我哭死</p><p>反思：现在报的一些比赛还没有什么含金量，如果要面向就业需要打一些和嵌入式和ai相关的竞赛</p><p>放一张纱雾美图开心一下吧</p><p><img src="/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/74744256_p0_master1200.jpg" alt="前辈，那个我喜欢你！" title="前辈，那个我喜欢你！"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;好久没更新个人网站了，来冒个泡&lt;/p&gt;
+&lt;p&gt;还是渐渐走上了正轨&lt;/p&gt;
+&lt;p&gt;开始备赛，组好了队，甚至还有学长帮忙我哭死&lt;/p&gt;
+&lt;p&gt;反思：现在报的一些比赛还没有什么含金量，如果要面向就业需要打一些和嵌入式和ai相关的竞赛&lt;/p&gt;
+&lt;p&gt;放一张纱雾美图开心一下吧&lt;/p&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>竞赛分享</title>
@@ -408,27 +432,6 @@
       
       
     <summary type="html">&lt;p&gt;GPIO通用输入输出口&lt;br&gt;可配置为8中输入输出模式&lt;br&gt;引脚电平：0V~3.3v，部分引脚可以容忍5V&lt;br&gt;输出模式下：可控制端口输出高低电平，用以驱动LED，控制蜂鸣器。模拟通讯协议输出时序等&lt;br&gt;输入模式：可读取端口的高低电平或电压，用于读取按键输入，外接模块</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>学习笔记</title>
-    <link href="https://jiyexingzou.github.io/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/"/>
-    <id>https://jiyexingzou.github.io/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/</id>
-    <published>2024-07-17T08:23:07.000Z</published>
-    <updated>2024-07-17T08:27:28.101Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>STM32</strong>:STM32是ST公司基于ARMCortex-M内核开发的32位微控制器<br>ST：公司，M:Microcontroller<br>微控制器：MCU，单片机<br>基于ARM内核的芯片<br>STM32 f1</p><p>ARM：ARM公司还有ARM处理器内核<br>Cortex-A系列：高端应用<br>Cortex-R系列：实时<br>Cortex-M系列：单片机领域</p><p><strong>stm32f103c8t6</strong><br>系列:stm32f1<br>内核:ARM Cortex-M3<br>主频:72MHz<br>RAM:20k(SRAM)运行内存<br>ROM：64k（Flash）程序存储器<br>供电:2.0~3.6V (标准3.3v)<br>封装:LQFP48</p><p><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image.png" alt="alt text"></p><p>STM32  F:通用类型  103：增强型  C：引脚数目48  8：64k字节的闪存储存器  T：LQFP封装  6：-40~85度</p><p><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-1.png" alt="alt text"></p><p>[2-2]新建工程</p><p>基于寄存器<br>基于标准库（本课程使用）,库函数更加明显<br>基于HAL库的方式</p><p>芯片类型的启动文件选择<br><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-2.png" alt="alt text"><br><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-3.png" alt="alt text"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;STM32&lt;/strong&gt;:STM32是ST公司基于ARMCortex-M内核开发的32位微控制器&lt;br&gt;ST：公司，M:Microcontroller&lt;br&gt;微控制器：MCU，单片机&lt;br&gt;基于ARM内核的芯片&lt;br&gt;STM32 f1&lt;/p&gt;
-&lt;p&gt;AR</summary>
       
     
     
