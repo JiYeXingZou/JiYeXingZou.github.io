@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2024-11-25T13:27:52.387Z</updated>
+  <updated>2025-04-27T12:16:23.434Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用块的网络VGG</title>
+    <link href="https://jiyexingzou.github.io/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/"/>
+    <id>https://jiyexingzou.github.io/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/</id>
+    <published>2025-04-25T11:44:10.000Z</published>
+    <updated>2025-04-27T12:16:23.434Z</updated>
+    
+    <content type="html"><![CDATA[<p>VGG<br>能不能更深更大获得更好的精度<br>更多的全连接层<br>更多的卷积层<br>将卷积层组合成块<br><img src="/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/image.png" alt="alt text"><br>深但窄效果更好<br>多个VGG块后接全连接层<br>不同次数的重复块得到不同的架构<br>VGG-16，VGG-19<br>更大更深的AlexNet<br>非常的占内存</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> torch <span class="keyword">import</span> nn</span><br><span class="line"><span class="keyword">from</span> d2l <span class="keyword">import</span> torch <span class="keyword">as</span> d2l</span><br><span class="line"></span><br><span class="line"><span class="comment"># VGG块的实现</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">vgg_block</span>(<span class="params">num_convs, in_channels, out_channels</span>):</span><br><span class="line">    layers = []</span><br><span class="line">    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(num_convs):</span><br><span class="line">        layers.append(nn.Conv2d(in_channels, out_channels,</span><br><span class="line">                                kernel_size=<span class="number">3</span>, padding=<span class="number">1</span>))</span><br><span class="line">        layers.append(nn.ReLU())</span><br><span class="line">        in_channels = out_channels</span><br><span class="line">    layers.append(nn.MaxPool2d(kernel_size=<span class="number">2</span>,stride=<span class="number">2</span>))</span><br><span class="line">    <span class="keyword">return</span> nn.Sequential(*layers)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">conv_arch = ((<span class="number">1</span>, <span class="number">64</span>), (<span class="number">1</span>, <span class="number">128</span>), (<span class="number">2</span>, <span class="number">256</span>), (<span class="number">2</span>, <span class="number">512</span>), (<span class="number">2</span>, <span class="number">512</span>))</span><br><span class="line"></span><br><span class="line">    conv_blks = []</span><br><span class="line">    in_channels = <span class="number">1</span></span><br><span class="line">    <span class="comment"># 卷积层部分</span></span><br><span class="line">    <span class="keyword">for</span> (num_convs, out_channels) <span class="keyword">in</span> conv_arch:</span><br><span class="line">        conv_blks.append(vgg_block(num_convs, in_channels, out_channels))</span><br><span class="line">        in_channels = out_channels</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> nn.Sequential(</span><br><span class="line">        *conv_blks, nn.Flatten(),</span><br><span class="line">        <span class="comment"># 全连接层部分</span></span><br><span class="line">        nn.Linear(out_channels * <span class="number">7</span> * <span class="number">7</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),</span><br><span class="line">        nn.Linear(<span class="number">4096</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),</span><br><span class="line">        nn.Linear(<span class="number">4096</span>, <span class="number">10</span>))</span><br><span class="line"></span><br><span class="line">net = vgg(conv_arch)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;VGG&lt;br&gt;能不能更深更大获得更好的精度&lt;br&gt;更多的全连接层&lt;br&gt;更多的卷积层&lt;br&gt;将卷积层组合成块&lt;br&gt;&lt;img src=&quot;/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>近期目标与反思</title>
@@ -412,26 +432,6 @@
 &lt;li&gt;光敏传感器控制蜂鸣器&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;C语言数据类型&lt;b</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>GPIO输出</title>
-    <link href="https://jiyexingzou.github.io/2024/07/17/GPIO%E8%BE%93%E5%87%BA/"/>
-    <id>https://jiyexingzou.github.io/2024/07/17/GPIO%E8%BE%93%E5%87%BA/</id>
-    <published>2024-07-17T08:26:02.000Z</published>
-    <updated>2024-07-18T08:15:12.323Z</updated>
-    
-    <content type="html"><![CDATA[<p>GPIO通用输入输出口<br>可配置为8中输入输出模式<br>引脚电平：0V~3.3v，部分引脚可以容忍5V<br>输出模式下：可控制端口输出高低电平，用以驱动LED，控制蜂鸣器。模拟通讯协议输出时序等<br>输入模式：可读取端口的高低电平或电压，用于读取按键输入，外接模块电平信号输入，ADC电压采集，模拟通信协议接受数据等<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image.png" alt="alt text"></p><p>施密特触发器：高于上线和低于下限，输出才会变化<br>将信号进行整形<br>mos管<br>推挽，开漏或关闭<br>推挽：高低电平都有输出模式<br>开漏：只有低电平有输出模式<br>关闭：两个mos管都无效<br>GPIO模式<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-2.png" alt="alt text"></p><p>浮空&#x2F;上拉&#x2F;下拉输入</p><p><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-3.png" alt="alt text"></p><p>模拟输入<br>使用ADC配置为模拟输入<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-4.png" alt="alt text"></p><p>开漏输出和推挽输出</p><p><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-5.png" alt="alt text"></p><p>复用开漏输出&#x2F;复用推挽输出<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-6.png" alt="alt text"></p><p>LED和蜂鸣器介绍<br><img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image-7.png" alt="alt text"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;GPIO通用输入输出口&lt;br&gt;可配置为8中输入输出模式&lt;br&gt;引脚电平：0V~3.3v，部分引脚可以容忍5V&lt;br&gt;输出模式下：可控制端口输出高低电平，用以驱动LED，控制蜂鸣器。模拟通讯协议输出时序等&lt;br&gt;输入模式：可读取端口的高低电平或电压，用于读取按键输入，外接模块</summary>
       
     
     

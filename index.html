@@ -182,6 +182,40 @@
         
 
 <div class="post">
+    <a href="/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/">
+        <h2 class="post-title">使用块的网络VGG</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2025/4/25
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p>VGG<br>能不能更深更大获得更好的精度<br>更多的全连接层<br>更多的卷积层<br>将卷积层组合成块<br><img src="/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/image.png" alt="alt text"><br>深但窄效果更好<br>多个VGG块后接全连接层<br>不同次数的重复块得到不同的架构<br>VGG-16，VGG-19<br>更大更深的AlexNet<br>非常的占内存</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> torch <span class="keyword">import</span> nn</span><br><span class="line"><span class="keyword">from</span> d2l <span class="keyword">import</span> torch <span class="keyword">as</span> d2l</span><br><span class="line"></span><br><span class="line"><span class="comment"># VGG块的实现</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">vgg_block</span>(<span class="params">num_convs, in_channels, out_channels</span>):</span><br><span class="line">    layers = []</span><br><span class="line">    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(num_convs):</span><br><span class="line">        layers.append(nn.Conv2d(in_channels, out_channels,</span><br><span class="line">                                kernel_size=<span class="number">3</span>, padding=<span class="number">1</span>))</span><br><span class="line">        layers.append(nn.ReLU())</span><br><span class="line">        in_channels = out_channels</span><br><span class="line">    layers.append(nn.MaxPool2d(kernel_size=<span class="number">2</span>,stride=<span class="number">2</span>))</span><br><span class="line">    <span class="keyword">return</span> nn.Sequential(*layers)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">conv_arch = ((<span class="number">1</span>, <span class="number">64</span>), (<span class="number">1</span>, <span class="number">128</span>), (<span class="number">2</span>, <span class="number">256</span>), (<span class="number">2</span>, <span class="number">512</span>), (<span class="number">2</span>, <span class="number">512</span>))</span><br><span class="line"></span><br><span class="line">    conv_blks = []</span><br><span class="line">    in_channels = <span class="number">1</span></span><br><span class="line">    <span class="comment"># 卷积层部分</span></span><br><span class="line">    <span class="keyword">for</span> (num_convs, out_channels) <span class="keyword">in</span> conv_arch:</span><br><span class="line">        conv_blks.append(vgg_block(num_convs, in_channels, out_channels))</span><br><span class="line">        in_channels = out_channels</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> nn.Sequential(</span><br><span class="line">        *conv_blks, nn.Flatten(),</span><br><span class="line">        <span class="comment"># 全连接层部分</span></span><br><span class="line">        nn.Linear(out_channels * <span class="number">7</span> * <span class="number">7</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),</span><br><span class="line">        nn.Linear(<span class="number">4096</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),</span><br><span class="line">        nn.Linear(<span class="number">4096</span>, <span class="number">10</span>))</span><br><span class="line"></span><br><span class="line">net = vgg(conv_arch)</span><br></pre></td></tr></table></figure>
+
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
     <a href="/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/">
         <h2 class="post-title">近期目标与反思</h2>
     </a>
@@ -628,37 +662,6 @@
         
     </div>
     <a href="/2024/10/07/%E5%9B%BD%E5%BA%86%E4%B8%83%E5%A4%A9%E6%80%BB%E7%BB%93/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/">
-        <h2 class="post-title">常用网站指北</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2024/10/7
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <p>计算机教育中缺失的一课<br><a target="_blank" rel="noopener" href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a><br>CS自学指南<br><a target="_blank" rel="noopener" href="https://csdiy.wiki/">https://csdiy.wiki/</a><br>微软官方的Learn<br><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/">https://learn.microsoft.com/zh-cn/</a><br>GitHub<br><a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a><br>语言学习<br><a target="_blank" rel="noopener" href="https://www.runoob.com/">https://www.runoob.com/</a><br>kicad官网指南<br><a target="_blank" rel="noopener" href="https://dev-docs.kicad.org/zh-cn/">https://dev-docs.kicad.org/zh-cn/</a><br>renpy引擎官方文档<br><a target="_blank" rel="noopener" href="https://doc.renpy.cn/zh-CN">https://doc.renpy.cn/zh-CN</a></p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/" class="go-post">阅读全文</a>
 </div>
 
 
