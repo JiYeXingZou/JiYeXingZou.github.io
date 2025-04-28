@@ -973,3 +973,9 @@ ol li {
         padding-left: 20px;
     }
 }
+
+pre code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
