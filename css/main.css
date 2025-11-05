@@ -535,6 +535,7 @@ body::-webkit-scrollbar-track {
 }
 .hljs-ln-code {
     padding-left: 20px !important;
+    white-space: pre-wrap !important;
 }
 .hljs-ln-numbers {
     border-right: 1px solid #ccc;

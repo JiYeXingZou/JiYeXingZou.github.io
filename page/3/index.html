@@ -441,9 +441,28 @@ typedef<br>
 <p>区别</p>
 <p>结构体:<br>
 组合不同的结构类型</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">int</span> a;</span><br><span class="line">    <span class="type">int</span> b[<span class="number">5</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="class"><span class="keyword">struct</span>&#123;</span><span class="type">char</span> x;<span class="type">int</span> y;<span class="type">float</span> z;&#125; c;</span><br><span class="line">        </span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight c"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span>
+
+<span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span>
+&#123;
+    <span class="type">int</span> a;
+    <span class="type">int</span> b[<span class="number">5</span>];
+    
+    <span class="class"><span class="keyword">struct</span>&#123;</span><span class="type">char</span> x;<span class="type">int</span> y;<span class="type">float</span> z;&#125; c;
+        
+
+&#125;</code></pre>
 <p>枚举</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="class"><span class="keyword">enum</span>&#123;</span>M =<span class="number">1</span>; T = <span class="number">2</span>; W = <span class="number">3</span>&#125; week; <span class="comment">//顺序值，可以不写=2,=3</span></span><br><span class="line">    </span><br><span class="line">    week = M;</span><br><span class="line">    week = <span class="number">2</span>;</span><br><span class="line">    </span><br><span class="line">    print</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight c"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span>
+
+<span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;
+    <span class="class"><span class="keyword">enum</span>&#123;</span>M =<span class="number">1</span>; T = <span class="number">2</span>; W = <span class="number">3</span>&#125; week; <span class="comment">//顺序值，可以不写=2,=3</span>
+    
+    week = M;
+    week = <span class="number">2</span>;
+    
+    print
+&#125;</code></pre>
 <p>在给定的参数里面赋值</p>
 <p>枚举也是一个宏定义的集合</p>
 <p>#3.4按键控制LED<br>

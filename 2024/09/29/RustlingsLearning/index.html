@@ -192,32 +192,94 @@
 <h3 id="HashMap">HashMap</h3>
 <p><strong>HashMap&lt;K,v&gt;</strong></p>
 <p>一个键(key)对应一个值(value)</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="keyword">use</span> std::collections::HashMap;</span><br><span class="line"><span class="comment">//使用use导入HashMap</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="keyword">fn</span> <span class="title function_">main</span>() &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">scores</span>: HashMap&lt;<span class="type">String</span>,<span class="type">i32</span>&gt; = HashMap::<span class="title function_ invoke__">new</span>();</span><br><span class="line"></span><br><span class="line">    scores.<span class="title function_ invoke__">insert</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>),<span class="number">10</span>)</span><br><span class="line">    scores.<span class="title function_ invoke__">insert</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Yellow&quot;</span>),<span class="number">50</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment">//数据存储在heap上</span></span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="keyword">use</span> std::collections::HashMap;
+<span class="comment">//使用use导入HashMap</span></code></pre>
+<pre><code class="highlight rust"><span class="keyword">fn</span> <span class="title function_">main</span>() &#123;
+
+    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">scores</span>: HashMap&lt;<span class="type">String</span>,<span class="type">i32</span>&gt; = HashMap::<span class="title function_ invoke__">new</span>();
+
+    scores.<span class="title function_ invoke__">insert</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>),<span class="number">10</span>)
+    scores.<span class="title function_ invoke__">insert</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Yellow&quot;</span>),<span class="number">50</span>)
+
+    <span class="comment">//数据存储在heap上</span>
+
+    
+&#125;
+</code></pre>
 <p>collect()方法</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">scores</span> = </span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="keyword">let</span> <span class="variable">scores</span> = 
+
+</code></pre>
 <p>HashMap和所有权</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">field_name</span> = <span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Favorite Color&quot;</span>);</span><br><span class="line"><span class="keyword">let</span> <span class="variable">field_value</span> = <span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">map</span> = HashMap::<span class="title function_ invoke__">new</span>();</span><br><span class="line"><span class="comment">//定义了一个可变的HashMap</span></span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="keyword">let</span> <span class="variable">field_name</span> = <span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Favorite Color&quot;</span>);
+<span class="keyword">let</span> <span class="variable">field_value</span> = <span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>);
+
+<span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">map</span> = HashMap::<span class="title function_ invoke__">new</span>();
+<span class="comment">//定义了一个可变的HashMap</span></code></pre>
 <p>已经Cop trait的类型(例如i32),值会被复制到HashMap中<br>
 对于拥有所有权的值(例如String),值会被移动,所有权会转移给HashMap</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line">map.<span class="title function_ invoke__">insert</span>(field_name,field_value);</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust">map.<span class="title function_ invoke__">insert</span>(field_name,field_value);</code></pre>
 <p>如果将值的引用插入Hashmap，就不会被移动</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line">map.<span class="title function_ invoke__">insert</span>(&amp;field_name,&amp;field_value);</span><br><span class="line"><span class="comment">//传入引用</span></span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust">map.<span class="title function_ invoke__">insert</span>(&amp;field_name,&amp;field_value);
+<span class="comment">//传入引用</span></code></pre>
 <p>访问HashMap中的值<br>
 get()方法</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">score</span> = scores.<span class="title function_ invoke__">get</span>(&amp;team)</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="keyword">let</span> <span class="variable">score</span> = scores.<span class="title function_ invoke__">get</span>(&amp;team)</code></pre>
 <p>使用for()循环遍历</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line">    <span class="keyword">for</span>(k,v) <span class="keyword">in</span> &amp;scores&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust">    <span class="keyword">for</span>(k,v) <span class="keyword">in</span> &amp;scores&#123;
+&#125;</code></pre>
 <p>更新HashMap&lt;K,V&gt;</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="comment">//entry()方法</span></span><br><span class="line"><span class="comment">//scores.entry(String::from(&quot;Yellow&quot;)),or_insert(50);</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> <span class="variable">e</span> = scores.<span class="title function_ invoke__">entry</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Yellow&quot;</span>));</span><br><span class="line">e.<span class="title function_ invoke__">or_insert</span>(<span class="number">50</span>);</span><br><span class="line">scores.<span class="title function_ invoke__">entry</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>)).<span class="title function_ invoke__">or_insert</span>(<span class="number">50</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">println!</span>(<span class="string">&quot;&#123;:?&#125;&quot;</span>,scores);</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="comment">//entry()方法</span>
+<span class="comment">//scores.entry(String::from(&quot;Yellow&quot;)),or_insert(50);</span>
+
+<span class="keyword">let</span> <span class="variable">e</span> = scores.<span class="title function_ invoke__">entry</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Yellow&quot;</span>));
+e.<span class="title function_ invoke__">or_insert</span>(<span class="number">50</span>);
+scores.<span class="title function_ invoke__">entry</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>)).<span class="title function_ invoke__">or_insert</span>(<span class="number">50</span>);
+
+<span class="built_in">println!</span>(<span class="string">&quot;&#123;:?&#125;&quot;</span>,scores);</code></pre>
 <h3 id="Error">Error</h3>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="built_in">panic!</span>宏</span><br><span class="line"></span><br><span class="line"><span class="built_in">panic!</span>(<span class="string">&quot;crash and burn&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//为了获取带有调试信息的回溯，必须启用调试符号(不带 --release)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### <span class="type">Result</span>枚举</span><br><span class="line">```rust</span><br><span class="line"><span class="keyword">enum</span> <span class="title class_">Result</span>&lt;T,E&gt;&#123;</span><br><span class="line">    <span class="title function_ invoke__">Ok</span>(T),</span><br><span class="line">    <span class="title function_ invoke__">Err</span>(E),    </span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="built_in">panic!</span>宏
+
+<span class="built_in">panic!</span>(<span class="string">&quot;crash and burn&quot;</span>);
+
+<span class="comment">//为了获取带有调试信息的回溯，必须启用调试符号(不带 --release)</span>
+
+
+
+### <span class="type">Result</span>枚举
+```rust
+<span class="keyword">enum</span> <span class="title class_">Result</span>&lt;T,E&gt;&#123;
+    <span class="title function_ invoke__">Ok</span>(T),
+    <span class="title function_ invoke__">Err</span>(E),    
+    &#125;</code></pre>
 <p>使用match表达式,来处理Result的一种方式:match表达式</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="keyword">use</span> std::fs::File;</span><br><span class="line"></span><br><span class="line"><span class="keyword">fn</span> <span class="title function_">main</span>()&#123;</span><br><span class="line">    <span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">match</span> f &#123;</span><br><span class="line">        <span class="title function_ invoke__">OK</span>(file) =&gt; file,</span><br><span class="line">        <span class="title function_ invoke__">Err</span>(error) =&gt; &#123;</span><br><span class="line">            <span class="built_in">panic!</span>(<span class="string">&quot;Error opening file &#123;:?&#125;&quot;</span>,error)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">```rust</span><br><span class="line"><span class="keyword">use</span> std::fs::File;</span><br><span class="line"><span class="keyword">use</span> std::io::ErrorKind;</span><br><span class="line"></span><br><span class="line"><span class="keyword">fn</span> <span class="title function_">main</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="keyword">use</span> std::fs::File;
+
+<span class="keyword">fn</span> <span class="title function_">main</span>()&#123;
+    <span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>);
+
+    <span class="keyword">match</span> f &#123;
+        <span class="title function_ invoke__">OK</span>(file) =&gt; file,
+        <span class="title function_ invoke__">Err</span>(error) =&gt; &#123;
+            <span class="built_in">panic!</span>(<span class="string">&quot;Error opening file &#123;:?&#125;&quot;</span>,error)
+        &#125;
+    &#125;;
+&#125;
+
+
+```rust
+<span class="keyword">use</span> std::fs::File;
+<span class="keyword">use</span> std::io::ErrorKind;
+
+<span class="keyword">fn</span> <span class="title function_">main</span>
+
+
+</code></pre>
 <p>//unwrap()方法</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>).<span class="title function_ invoke__">unwrap</span>();</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust"><span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>).<span class="title function_ invoke__">unwrap</span>();</code></pre>
 <p>//expect()方法</p>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>).<span class="title function_ invoke__">expect</span>(&#x27;无法打开文件&#x27;);</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight rust">
+<span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>).<span class="title function_ invoke__">expect</span>(&#x27;无法打开文件&#x27;);</code></pre>
     </div>
     
     

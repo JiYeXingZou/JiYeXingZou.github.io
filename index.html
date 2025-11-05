@@ -442,8 +442,37 @@ MLP<br>
 VGG-16，VGG-19<br>
 更大更深的AlexNet<br>
 非常的占内存</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> torch</span><br><span class="line"><span class="keyword">from</span> torch <span class="keyword">import</span> nn</span><br><span class="line"><span class="keyword">from</span> d2l <span class="keyword">import</span> torch <span class="keyword">as</span> d2l</span><br><span class="line"></span><br><span class="line"><span class="comment"># VGG块的实现</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">vgg_block</span>(<span class="params">num_convs, in_channels, out_channels</span>):</span><br><span class="line">    layers = []</span><br><span class="line">    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(num_convs):</span><br><span class="line">        layers.append(nn.Conv2d(in_channels, out_channels,</span><br><span class="line">                                kernel_size=<span class="number">3</span>, padding=<span class="number">1</span>))</span><br><span class="line">        layers.append(nn.ReLU())</span><br><span class="line">        in_channels = out_channels</span><br><span class="line">    layers.append(nn.MaxPool2d(kernel_size=<span class="number">2</span>,stride=<span class="number">2</span>))</span><br><span class="line">    <span class="keyword">return</span> nn.Sequential(*layers)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">conv_arch = ((<span class="number">1</span>, <span class="number">64</span>), (<span class="number">1</span>, <span class="number">128</span>), (<span class="number">2</span>, <span class="number">256</span>), (<span class="number">2</span>, <span class="number">512</span>), (<span class="number">2</span>, <span class="number">512</span>))</span><br><span class="line"></span><br><span class="line">    conv_blks = []</span><br><span class="line">    in_channels = <span class="number">1</span></span><br><span class="line">    <span class="comment"># 卷积层部分</span></span><br><span class="line">    <span class="keyword">for</span> (num_convs, out_channels) <span class="keyword">in</span> conv_arch:</span><br><span class="line">        conv_blks.append(vgg_block(num_convs, in_channels, out_channels))</span><br><span class="line">        in_channels = out_channels</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> nn.Sequential(</span><br><span class="line">        *conv_blks, nn.Flatten(),</span><br><span class="line">        <span class="comment"># 全连接层部分</span></span><br><span class="line">        nn.Linear(out_channels * <span class="number">7</span> * <span class="number">7</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),</span><br><span class="line">        nn.Linear(<span class="number">4096</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),</span><br><span class="line">        nn.Linear(<span class="number">4096</span>, <span class="number">10</span>))</span><br><span class="line"></span><br><span class="line">net = vgg(conv_arch)</span><br></pre></td></tr></table></figure>
+<pre><code class="highlight python"><span class="keyword">import</span> torch
+<span class="keyword">from</span> torch <span class="keyword">import</span> nn
+<span class="keyword">from</span> d2l <span class="keyword">import</span> torch <span class="keyword">as</span> d2l
+
+<span class="comment"># VGG块的实现</span>
+<span class="keyword">def</span> <span class="title function_">vgg_block</span>(<span class="params">num_convs, in_channels, out_channels</span>):
+    layers = []
+    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(num_convs):
+        layers.append(nn.Conv2d(in_channels, out_channels,
+                                kernel_size=<span class="number">3</span>, padding=<span class="number">1</span>))
+        layers.append(nn.ReLU())
+        in_channels = out_channels
+    layers.append(nn.MaxPool2d(kernel_size=<span class="number">2</span>,stride=<span class="number">2</span>))
+    <span class="keyword">return</span> nn.Sequential(*layers)</code></pre>
+<pre><code class="highlight python">conv_arch = ((<span class="number">1</span>, <span class="number">64</span>), (<span class="number">1</span>, <span class="number">128</span>), (<span class="number">2</span>, <span class="number">256</span>), (<span class="number">2</span>, <span class="number">512</span>), (<span class="number">2</span>, <span class="number">512</span>))
+
+    conv_blks = []
+    in_channels = <span class="number">1</span>
+    <span class="comment"># 卷积层部分</span>
+    <span class="keyword">for</span> (num_convs, out_channels) <span class="keyword">in</span> conv_arch:
+        conv_blks.append(vgg_block(num_convs, in_channels, out_channels))
+        in_channels = out_channels
+
+    <span class="keyword">return</span> nn.Sequential(
+        *conv_blks, nn.Flatten(),
+        <span class="comment"># 全连接层部分</span>
+        nn.Linear(out_channels * <span class="number">7</span> * <span class="number">7</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),
+        nn.Linear(<span class="number">4096</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),
+        nn.Linear(<span class="number">4096</span>, <span class="number">10</span>))
+
+net = vgg(conv_arch)</code></pre>
 
             
         </div>
