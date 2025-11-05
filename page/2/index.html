@@ -403,6 +403,83 @@
 </div>
 
 <div class="post">
+    <a href="/2024/09/29/RustlingsLearning/">
+        <h2 class="post-title">RustlingsLearning</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/9/29
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p><strong>本人于2024年9月29日参加清华大学主办的操作系统训练营，由此博客来记录我的学习历程</strong></p>
+<h1 id="day0"><a href="#day0" class="headerlink" title="day0"></a>day0</h1><p>我参考的rust学习教程:【Rust编程语言入门教程（Rust语言&#x2F;Rust权威指南配套）【已完结】】 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1hp4y1k7SV/?p=37&share_source=copy_web&vd_source=f3e0def7125bc57c729dfe457f662af8">https://www.bilibili.com/video/BV1hp4y1k7SV/?p=37&amp;share_source=copy_web&amp;vd_source=f3e0def7125bc57c729dfe457f662af8</a></p>
+<h3 id="HashMap"><a href="#HashMap" class="headerlink" title="HashMap"></a>HashMap</h3><p><strong>HashMap&lt;K,v&gt;</strong></p>
+<p>一个键(key)对应一个值(value)</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> std::collections::HashMap;</span><br><span class="line"><span class="comment">//使用use导入HashMap</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">fn</span> <span class="title function_">main</span>() &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">scores</span>: HashMap&lt;<span class="type">String</span>,<span class="type">i32</span>&gt; = HashMap::<span class="title function_ invoke__">new</span>();</span><br><span class="line"></span><br><span class="line">    scores.<span class="title function_ invoke__">insert</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>),<span class="number">10</span>)</span><br><span class="line">    scores.<span class="title function_ invoke__">insert</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Yellow&quot;</span>),<span class="number">50</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment">//数据存储在heap上</span></span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>collect()方法</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">scores</span> = </span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>HashMap和所有权</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">field_name</span> = <span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Favorite Color&quot;</span>);</span><br><span class="line"><span class="keyword">let</span> <span class="variable">field_value</span> = <span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> <span class="keyword">mut </span><span class="variable">map</span> = HashMap::<span class="title function_ invoke__">new</span>();</span><br><span class="line"><span class="comment">//定义了一个可变的HashMap</span></span><br></pre></td></tr></table></figure>
+
+<p>已经Cop trait的类型(例如i32),值会被复制到HashMap中<br>对于拥有所有权的值(例如String),值会被移动,所有权会转移给HashMap</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">map.<span class="title function_ invoke__">insert</span>(field_name,field_value);</span><br></pre></td></tr></table></figure>
+
+<p>如果将值的引用插入Hashmap，就不会被移动</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">map.<span class="title function_ invoke__">insert</span>(&amp;field_name,&amp;field_value);</span><br><span class="line"><span class="comment">//传入引用</span></span><br></pre></td></tr></table></figure>
+
+<p>访问HashMap中的值<br>get()方法</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">score</span> = scores.<span class="title function_ invoke__">get</span>(&amp;team)</span><br></pre></td></tr></table></figure>
+
+<p>使用for()循环遍历</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">    <span class="keyword">for</span>(k,v) <span class="keyword">in</span> &amp;scores&#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p>更新HashMap&lt;K,V&gt;</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//entry()方法</span></span><br><span class="line"><span class="comment">//scores.entry(String::from(&quot;Yellow&quot;)),or_insert(50);</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> <span class="variable">e</span> = scores.<span class="title function_ invoke__">entry</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Yellow&quot;</span>));</span><br><span class="line">e.<span class="title function_ invoke__">or_insert</span>(<span class="number">50</span>);</span><br><span class="line">scores.<span class="title function_ invoke__">entry</span>(<span class="type">String</span>::<span class="title function_ invoke__">from</span>(<span class="string">&quot;Blue&quot;</span>)).<span class="title function_ invoke__">or_insert</span>(<span class="number">50</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">println!</span>(<span class="string">&quot;&#123;:?&#125;&quot;</span>,scores);</span><br></pre></td></tr></table></figure>
+
+<h3 id="Error"><a href="#Error" class="headerlink" title="Error"></a>Error</h3><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">panic!</span>宏</span><br><span class="line"></span><br><span class="line"><span class="built_in">panic!</span>(<span class="string">&quot;crash and burn&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//为了获取带有调试信息的回溯，必须启用调试符号(不带 --release)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">### <span class="type">Result</span>枚举</span><br><span class="line">```rust</span><br><span class="line"><span class="keyword">enum</span> <span class="title class_">Result</span>&lt;T,E&gt;&#123;</span><br><span class="line">    <span class="title function_ invoke__">Ok</span>(T),</span><br><span class="line">    <span class="title function_ invoke__">Err</span>(E),    </span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<p>使用match表达式,来处理Result的一种方式:match表达式</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> std::fs::File;</span><br><span class="line"></span><br><span class="line"><span class="keyword">fn</span> <span class="title function_">main</span>()&#123;</span><br><span class="line">    <span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">match</span> f &#123;</span><br><span class="line">        <span class="title function_ invoke__">OK</span>(file) =&gt; file,</span><br><span class="line">        <span class="title function_ invoke__">Err</span>(error) =&gt; &#123;</span><br><span class="line">            <span class="built_in">panic!</span>(<span class="string">&quot;Error opening file &#123;:?&#125;&quot;</span>,error)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">```rust</span><br><span class="line"><span class="keyword">use</span> std::fs::File;</span><br><span class="line"><span class="keyword">use</span> std::io::ErrorKind;</span><br><span class="line"></span><br><span class="line"><span class="keyword">fn</span> <span class="title function_">main</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>&#x2F;&#x2F;unwrap()方法</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>).<span class="title function_ invoke__">unwrap</span>();</span><br></pre></td></tr></table></figure>
+
+<p>&#x2F;&#x2F;expect()方法</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">let</span> <span class="variable">f</span> = File::<span class="title function_ invoke__">open</span>(<span class="string">&quot;hello.txt&quot;</span>).<span class="title function_ invoke__">expect</span>(&#x27;无法打开文件&#x27;);</span><br></pre></td></tr></table></figure>
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
+        
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/Learning-rust/" style="color: #ffa2c4">Learning,rust</a>
+        </span>
+        
+    </div>
+    <a href="/2024/09/29/RustlingsLearning/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
     <a href="/2024/08/23/k210/">
         <h2 class="post-title">k210</h2>
     </a>
@@ -515,45 +592,6 @@
         
     </div>
     <a href="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/">
-        <h2 class="post-title">TIM定时中断</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2024/8/3
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <p><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image.png" alt="alt text"></p>
-<h2 id="定时器类型"><a href="#定时器类型" class="headerlink" title="定时器类型"></a>定时器类型</h2><p><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image-1.png" alt="alt text"></p>
-<h3 id="高级定时器"><a href="#高级定时器" class="headerlink" title="高级定时器"></a>高级定时器</h3><p><strong>基本定时器框图</strong><br><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image-2.png" alt="alt text"><br>向上计数<br><strong>通用定时器</strong><br><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image-4.png" alt="alt text"><br>向上计数，向下计数，中央对齐模式<br><strong>高级定时器</strong><br>增加部分了解即可</p>
-<h2 id="定时中断基本结构"><a href="#定时中断基本结构" class="headerlink" title="定时中断基本结构"></a>定时中断基本结构</h2><p><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image-5.png" alt="alt text"></p>
-<p><strong>预分频器时序</strong><br><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image-6.png" alt="alt text"></p>
-<p><strong>计数器时序</strong><br><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image-7.png" alt="alt text"></p>
-<p>有预装时序 VS 无预装时序<br>有预装时序：有影子寄存器</p>
-<p><strong>RCC时钟树</strong><br><img src="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/image-8.png" alt="alt text"></p>
-<p>无论什么定时器，内部基准时钟都是72Mhz</p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2024/08/03/TIM%E5%AE%9A%E6%97%B6%E4%B8%AD%E6%96%AD/" class="go-post">阅读全文</a>
 </div>
 
 
