@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2025-05-09T10:52:21.506Z</updated>
+  <updated>2025-11-11T08:29:33.473Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>科研实习寻找经验</title>
+    <link href="https://jiyexingzou.github.io/2025/11/11/%E7%A7%91%E7%A0%94%E5%AE%9E%E4%B9%A0%E5%AF%BB%E6%89%BE%E7%BB%8F%E9%AA%8C/"/>
+    <id>https://jiyexingzou.github.io/2025/11/11/%E7%A7%91%E7%A0%94%E5%AE%9E%E4%B9%A0%E5%AF%BB%E6%89%BE%E7%BB%8F%E9%AA%8C/</id>
+    <published>2025-11-11T07:14:15.000Z</published>
+    <updated>2025-11-11T08:29:33.473Z</updated>
+    
+    <content type="html"><![CDATA[<h1>10 月 21 日</h1><h2 id="USTC-张少峰老师">USTC 张少峰老师</h2><p>投递的USTC人工智能与大数据实验室，张少峰老师，未被回复</p><h1>10 月 28 日</h1><p>再度投递，依旧未回复</p><h1>11 月 11 日</h1><p>找到的招科研实习的老师</p><h2 id="SJTU-张林峰-老师">SJTU 张林峰 老师</h2><p>研究方向:Efficient AI<br>招聘界面:<br><a href="https://zhuanlan.zhihu.com/p/1910049209664660559">https://zhuanlan.zhihu.com/p/1910049209664660559</a><br>实验室主页:<br>www.zhanglinfeng.tech<br>老师邮箱:zhanglinfeng@sjtu.edu.cn</p><h2 id="NJU-刘佳恒老师">NJU 刘佳恒老师</h2><p>南京大学-大规模智能与知识实验室（NJU-LINK, Large-scale Intelligence and Knowledge Lab）<br>老师邮箱:211300096@smail.nju.edu.cn<br>招聘界面</p><h1>已经错过时间但是可以去了解的计划:</h1><h2 id="西湖大学-暑期研究计划">西湖大学 暑期研究计划</h2><h2 id="中国科学院大学-大学生创新实践训练集计划">中国科学院大学 大学生创新实践训练集计划</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;10 月 21 日&lt;/h1&gt;
+&lt;h2 id=&quot;USTC-张少峰老师&quot;&gt;USTC 张少峰老师&lt;/h2&gt;
+&lt;p&gt;投递的USTC人工智能与大数据实验室，张少峰老师，未被回复&lt;/p&gt;
+&lt;h1&gt;10 月 28 日&lt;/h1&gt;
+&lt;p&gt;再度投递，依旧未回复&lt;/p&gt;
+&lt;h1&gt;11 月 11</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>计算机网络</title>
@@ -459,28 +484,6 @@ CS自学指南&lt;br&gt;
 &lt;p&gt;&lt;img src=&quot;/2024/08/18/USART%E4%B8%B2%E5%8F%A3%E5%8D%8F%E8%AE%AE/image.png&quot; alt=&quot;alt text&quot;&gt;&lt;br&gt;
 双工模式：&lt;br&gt;
 全双工：</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>TIM输出比较</title>
-    <link href="https://jiyexingzou.github.io/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/"/>
-    <id>https://jiyexingzou.github.io/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/</id>
-    <published>2024-08-12T09:07:14.000Z</published>
-    <updated>2024-08-18T14:22:24.085Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="输出比较简介-OC">输出比较简介 OC</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-1.png" alt="alt text"></p><p>用于输出PWM波形</p><h2 id="PWM波形">PWM波形</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-2.png" alt="alt text"></p><p>脉冲宽度调制<br>等效的生成一个模拟信号的输出<br>具有惯性的系统才能使用PWM</p><p>PWM三个参数<br>频率<br>占空比等效关系是线性的<br>分辨率</p><h2 id="输出比较通道">输出比较通道</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-3.png" alt="alt text"><br><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-4.png" alt="alt text"></p><p>输出比较模式<br><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-5.png" alt="alt text"></p><p>PWM模式1<br>PWM模式2</p><h2 id="PWM基本结构">PWM基本结构</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-6.png" alt="alt text"></p><h2 id="PWM参数计算">PWM参数计算</h2><p><img src="/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-7.png" alt="alt text"></p><h2 id="STM32外部设备">STM32外部设备</h2><p>舵机<br>直流电机</p><p>电机驱动模块</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;输出比较简介-OC&quot;&gt;输出比较简介 OC&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/2024/08/12/TIM%E8%BE%93%E5%87%BA%E6%AF%94%E8%BE%83/image-1.png&quot; alt=&quot;alt text&quot;&gt;&lt;/p&gt;
-&lt;p&gt;用于输出P</summary>
       
     
     
