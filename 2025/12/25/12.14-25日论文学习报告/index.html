@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>别再说 AI 不懂球：MatchTime 系列论文深度笔记 | Izumi Sagiri</title>
+    <title>12.14-25日论文学习报告 | Izumi Sagiri</title>
     <meta name="author" content="Izumi Sagiri" />
     <meta name="description" content="分享平时的技术和生活" />
     <meta name="keywords" content="" />
@@ -158,14 +158,14 @@
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
             <div class="article">
     <div>
-        <h1>别再说 AI 不懂球：MatchTime 系列论文深度笔记</h1>
+        <h1>12.14-25日论文学习报告</h1>
     </div>
     <div class="info">
         <span class="date">
             <span class="icon">
                 <i class="fa-solid fa-calendar fa-fw"></i>
             </span>
-            2025/12/23
+            2025/12/25
         </span>
         
         <span class="category">
@@ -186,14 +186,14 @@
             
             <span class="tag">
                 
-                <a href="/tags/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/" style="color: #03a9f4">
+                <a href="/tags/%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/" style="color: #00bcd4">
                     论文笔记
                 </a>
             </span>
             
             <span class="tag">
                 
-                <a href="/tags/MatchTime/" style="color: #ff7d73">
+                <a href="/tags/MatchTime/" style="color: #03a9f4">
                     MatchTime
                 </a>
             </span>
@@ -207,7 +207,7 @@
             
             <span class="tag">
                 
-                <a href="/tags/%E8%B6%B3%E7%90%83AI/" style="color: #03a9f4">
+                <a href="/tags/%E8%B6%B3%E7%90%83AI/" style="color: #00a596">
                     足球AI
                 </a>
             </span>
@@ -217,7 +217,9 @@
     </div>
     
     <div class="content" v-pre>
-        <h1>别再说 AI 不懂球：MatchTime 系列论文深度笔记（一）</h1>
+        <p><strong>报告人:王子通 | 2025/12/25</strong></p>
+<h1>MatchTime 系列论文深度笔记</h1>
+<h1>第一篇论文 MatchTime: Towards Automatic Soccer Game Commentary Generation</h1>
 <h2 id="核心痛点：消失的“16秒”">核心痛点：消失的“16秒”</h2>
 <p>在足球视频领域，传统的解说词数据存在严重的<strong>音画不同步</strong>。由于原始数据大多抓取自实时文字直播，解说词往往比实际进球画面晚了 <strong>16.63 秒</strong>甚至更多。如果直接用这种“脏数据”训练，AI 只会学会“马后炮”。</p>
 <hr>
@@ -253,7 +255,7 @@
 <li><strong>Learnable Queries</strong>：它们不是来自视频，而是模型内置的“探测员”。</li>
 <li><strong>自注意力 (Self-Attention)</strong>：让这群“探测员”在出发前先开个会，分工合作（比如有的看人，有的看球）。</li>
 <li><strong>交叉注意力 (Cross-Attention)</strong>：这是关键！探测员拿着清单去视频特征（超市货架）里取货，把散落在时空中的信息吸收到 Query 向量中。<br>
-<img src="/2025/12/23/%E5%88%AB%E5%86%8D%E8%AF%B4-AI-%E4%B8%8D%E6%87%82%E7%90%83%EF%BC%9AMatchTime-%E7%B3%BB%E5%88%97%E8%AE%BA%E6%96%87%E6%B7%B1%E5%BA%A6%E7%AC%94%E8%AE%B0/image-4.png" alt="alt text"></li>
+<img src="/2025/12/25/12.14-25%E6%97%A5%E8%AE%BA%E6%96%87%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/image-4.png" alt="alt text"></li>
 </ul>
 <h3 id="3-从投影到生成：MLP-与-Prefix-Tokens">3. 从投影到生成：MLP 与 Prefix Tokens</h3>
 <ul>
@@ -279,7 +281,7 @@
 并且提出了足球专用的解码器MatchVison</p>
 <h3 id="SoccerReplay-19886-Dataset">SoccerReplay-19886 Dataset</h3>
 <p>这篇文章阐述了这个作者是如何做这个数据集的，将视频分为上下两场，从starting at kick off开始。并且采用第一篇文章的MatchTime的对齐方式，通过手动进行人工对齐</p>
-<p><img src="/2025/12/23/%E5%88%AB%E5%86%8D%E8%AF%B4-AI-%E4%B8%8D%E6%87%82%E7%90%83%EF%BC%9AMatchTime-%E7%B3%BB%E5%88%97%E8%AE%BA%E6%96%87%E6%B7%B1%E5%BA%A6%E7%AC%94%E8%AE%B0/image-5.png" alt="alt text"></p>
+<p><img src="/2025/12/25/12.14-25%E6%97%A5%E8%AE%BA%E6%96%87%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/image-5.png" alt="alt text"></p>
 <h3 id="对于模型我自己的理解">对于模型我自己的理解:</h3>
 <p>本质上就是一个改进的video transformer</p>
 <h4 id="Token-Embedding">Token Embedding</h4>
@@ -467,7 +469,7 @@
 <p>并且转化成四选一的选择题</p>
 <p>最后通过自动化合成再经过人工筛选，组成了<strong>SoccerBench</strong></p>
 <h3 id="SoccerAgent">SoccerAgent</h3>
-<p><img src="/2025/12/23/%E5%88%AB%E5%86%8D%E8%AF%B4-AI-%E4%B8%8D%E6%87%82%E7%90%83%EF%BC%9AMatchTime-%E7%B3%BB%E5%88%97%E8%AE%BA%E6%96%87%E6%B7%B1%E5%BA%A6%E7%AC%94%E8%AE%B0/C:%5CUsers%5Cyunan%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20251225220605344.png" alt="image-20251225220605344"></p>
+<p><img src="/2025/12/25/12.14-25%E6%97%A5%E8%AE%BA%E6%96%87%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/image-20251225220605344.png" alt="SoccerAgent架构图"></p>
 <p>论文的核心部分</p>
 <h4 id="基于DeepSeek-V3的主模块协同工作">基于DeepSeek-V3的主模块协同工作</h4>
 <p><strong>规划者 ($\mathcal{A}_{plan}$)</strong>：负责“思考”。它接收问题后，并不直接回答，而是分析需要哪些步骤，从工具包里挑选出最合适的<strong>工具链</strong>。</p>
