@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>科研实习寻找经验 | Izumi Sagiri</title>
+    <title>Izumi Sagiri</title>
     <meta name="author" content="Izumi Sagiri" />
     <meta name="description" content="分享平时的技术和生活" />
     <meta name="keywords" content="" />
@@ -43,9 +43,7 @@
 
 
 
-
-
-
+<script src="/js/lib/home.js"></script>
 
 <link rel="stylesheet" href="/css/main.css" />
  
@@ -156,77 +154,169 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div class="article">
-    <div>
-        <h1>科研实习寻找经验</h1>
+            <div id="home-head">
+    <div
+        id="home-background"
+        ref="homeBackground"
+        data-images="/images/background.png"
+    ></div>
+    <div id="home-info" @click="homeClick">
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="info">
+            <div class="wrap">
+                <h1>Izumi Sagiri</h1>
+                <h3>个人博客</h3>
+                <h5>分享平时的技术和生活</h5>
+            </div>
+        </span>
     </div>
-    <div class="info">
+</div>
+<div
+    id="home-posts-wrap"
+    ref="homePostsWrap"
+    true
+>
+    <div id="home-posts">
+        
+
+<div class="post">
+    <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/">
+        <h2 class="post-title">学习笔记</h2>
+    </a>
+    <div class="category-and-date">
+        
         <span class="date">
             <span class="icon">
                 <i class="fa-solid fa-calendar fa-fw"></i>
             </span>
-            2025/11/11
+            2024/7/17
         </span>
         
         
     </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p><strong>STM32</strong>:STM32是ST公司基于ARMCortex-M内核开发的32位微控制器<br>
+ST：公司，M:Microcontroller<br>
+微控制器：MCU，单片机<br>
+基于ARM内核的芯片<br>
+STM32 f1</p>
+<p>ARM：ARM公司还有ARM处理器内核<br>
+Cortex-A系列：高端应用<br>
+Cortex-R系列：实时<br>
+Cortex-M系列：单片机领域</p>
+<p><strong>stm32f103c8t6</strong><br>
+系列:stm32f1<br>
+内核:ARM Cortex-M3<br>
+主频:72MHz<br>
+RAM:20k(SRAM)运行内存<br>
+ROM：64k（Flash）程序存储器<br>
+供电:2.0~3.6V (标准3.3v)<br>
+封装:LQFP48</p>
+<p><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image.png" alt="alt text"></p>
+<p>STM32  F:通用类型  103：增强型  C：引脚数目48  8：64k字节的闪存储存器  T：LQFP封装  6：-40~85度</p>
+<p><img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-1.png" alt="alt text"></p>
+<p>[2-2]新建工程</p>
+<p>基于寄存器<br>
+基于标准库（本课程使用）,库函数更加明显<br>
+基于HAL库的方式</p>
+<p>芯片类型的启动文件选择<br>
+<img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-2.png" alt="alt text"><br>
+<img src="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/image-3.png" alt="alt text"></p>
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2024/05/09/Welcome/">
+        <h2 class="post-title">Welcome!</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/5/9
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <h1>个人介绍</h1>
+<p>大家好，这里是Izumi Sagiri，我是和泉纱雾的粉丝，所以取了这个名字，大家可以叫我Sagiri。我现在是UESTC信息与软件工程学院的23级的学生，在这个网站里我会分享我平时学习技术和知识时的一些笔记，同样也会分享我在追番或者推galgame时的一些感受。</p>
+<center>  <!--开始居中对齐-->
+<p><img src="/2024/05/09/Welcome/80880468_p0_master1200.jpg" alt="纱雾镇楼" title="你看我老婆干什么"></p>
+</center> <!--结束居中对齐-->
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2024/05/09/Welcome/" class="go-post">阅读全文</a>
+</div>
+
+
+        <div class="page-current">
     
-    <div class="content" v-pre>
-        <h1>10 月 21 日</h1>
-<h2 id="USTC-张少峰老师">USTC 张少峰老师</h2>
-<p>投递的USTC人工智能与大数据实验室，张少峰老师，未被回复</p>
-<h1>10 月 28 日</h1>
-<p>再度投递，依旧未回复</p>
-<h1>11 月 11 日</h1>
-<p>找到的招科研实习的老师</p>
-<h2 id="SJTU-张林峰-老师">SJTU 张林峰 老师</h2>
-<p>研究方向:Efficient AI<br>
-招聘界面:<br>
-<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/1910049209664660559">https://zhuanlan.zhihu.com/p/1910049209664660559</a><br>
-实验室主页:<br>
-www.zhanglinfeng.tech<br>
-老师邮箱:zhanglinfeng@sjtu.edu.cn</p>
-<h2 id="NJU-刘佳恒老师">NJU 刘佳恒老师</h2>
-<p>南京大学-大规模智能与知识实验室（NJU-LINK, Large-scale Intelligence and Knowledge Lab）<br>
-老师邮箱:211300096@smail.nju.edu.cn<br>
-招聘界面:<br>
-<a target="_blank" rel="noopener" href="https://www.nju-link.com/zh/post/25-7-21-recruit2/">https://www.nju-link.com/zh/post/25-7-21-recruit2/</a></p>
-<h2 id="RUC-金琴老师">RUC 金琴老师</h2>
-<p>投递邮箱:aim3.ruc@gmail.com<br>
-邮件中附上简历、兴趣方向和预期的实习时间等信息<br>
-实验室主页:<br>
-<a target="_blank" rel="noopener" href="https://www.ruc-aim3.com/">https://www.ruc-aim3.com/</a><br>
-招聘界面:<br>
-<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/1917932252114973992">https://zhuanlan.zhihu.com/p/1917932252114973992</a></p>
-<h2 id="西湖大学-Westlake-university">西湖大学 Westlake university</h2>
-<p>LINs Lab<br>
-实验室主页:<br>
-<a target="_blank" rel="noopener" href="https://lins-lab.github.io/">https://lins-lab.github.io/</a><br>
-招聘界面:<br>
-<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/690440155">https://zhuanlan.zhihu.com/p/690440155</a></p>
-<h1>11 月 13日</h1>
-<h2 id="NJU-范崎老师">NJU 范崎老师</h2>
-<p>智能科学与技术学院<br>
-申请要求：</p>
-<ol>
-<li>热爱科研（最最重要！）</li>
-<li>有一定的相关基础</li>
-<li>在读本科生、硕士生、博士生均可。也欢迎已经毕业的朋友进行科研合作</li>
-<li>线下线上均可</li>
-</ol>
-<p>联系方式：fanqi@nju.edu.cn<br>
-请附带简历和成绩单</p>
-<h1>已经错过时间但是可以去了解的计划:</h1>
-<h2 id="西湖大学-暑期研究计划">西湖大学 暑期研究计划</h2>
-<h2 id="中国科学院大学-大学生创新实践训练集计划">中国科学院大学 大学生创新实践训练集计划</h2>
+    <a class="page-num" href="/page/3/">
+        <i class="fa-solid fa-caret-left fa-fw"></i>
+    </a>
+    <a class="page-num" href="/">1</a>
+    <span class="page-omit">...</span>
+    
+    <span class="current">4</span>
+    
+    
+    
+    
+</div>
 
     </div>
     
-    
-    
-    
-    
-    
+    <div id="home-card">
+        <div id="card-style">
+    <div id="card-div">
+        <div class="avatar">
+            <img src="/images/avatar.jpg" alt="avatar" />
+        </div>
+        <div class="name">Izumi Sagiri</div>
+        <div class="description">
+            <p>Description<br>
+我永远喜欢和泉纱雾</p>
+
+        </div>
+        
+        
+        <div class="friend-links">
+            
+            <div class="friend-link">
+                <a target="_blank" rel="noopener" href="https://argvchs.github.io">Argvchs</a>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+    </div>
     
 </div>
 
@@ -258,12 +348,6 @@ www.zhanglinfeng.tech<br>
         
     </div>
     <script src="/js/main.js"></script>
-    
-    
-
-
-
-
     
 </body>
 </html>
