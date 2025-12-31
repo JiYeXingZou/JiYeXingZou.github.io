@@ -183,6 +183,50 @@
         
 
 <div class="post">
+    <a href="/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/">
+        <h2 class="post-title">常用网站指北</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/10/7
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p>计算机教育中缺失的一课<br>
+<a target="_blank" rel="noopener" href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a><br>
+CS自学指南<br>
+<a target="_blank" rel="noopener" href="https://csdiy.wiki/">https://csdiy.wiki/</a><br>
+微软官方的Learn<br>
+<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/">https://learn.microsoft.com/zh-cn/</a><br>
+GitHub<br>
+<a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a><br>
+语言学习<br>
+<a target="_blank" rel="noopener" href="https://www.runoob.com/">https://www.runoob.com/</a><br>
+kicad官网指南<br>
+<a target="_blank" rel="noopener" href="https://dev-docs.kicad.org/zh-cn/">https://dev-docs.kicad.org/zh-cn/</a><br>
+renpy引擎官方文档<br>
+<a target="_blank" rel="noopener" href="https://doc.renpy.cn/zh-CN">https://doc.renpy.cn/zh-CN</a></p>
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
     <a href="/2024/10/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%9A%84%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E9%81%87%E8%A7%81%E7%9A%84%E9%97%AE%E9%A2%98/">
         <h2 class="post-title">树莓派的环境配置遇见的问题</h2>
     </a>
@@ -339,7 +383,7 @@ scores.<span class="title function_ invoke__">entry</span>(<span class="type">St
         
         <span class="tag">
             
-            <a href="/tags/Learning-rust/" style="color: #ff7d73">Learning,rust</a>
+            <a href="/tags/Learning-rust/" style="color: #00a596">Learning,rust</a>
         </span>
         
     </div>
@@ -700,94 +744,6 @@ PWM模式2</p>
         
     </div>
     <a href="/2024/07/17/%E6%94%AF%E6%95%99%E6%97%A5%E5%BF%97/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/">
-        <h2 class="post-title">GPIO输入</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2024/7/17
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <h2 id="本节课目标">本节课目标</h2>
-<ol>
-<li>按键控制LED</li>
-<li>光敏传感器控制蜂鸣器</li>
-</ol>
-<p>C语言数据类型<br>
-typedef<br>
-宏定义<br>
-指针</p>
-<p>###按键介绍<br>
-<img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-8.png" alt="alt text"></p>
-<p>处理按键抖动的方法：对于按键抖动进行过滤</p>
-<h3 id="传感器模块介绍">传感器模块介绍</h3>
-<p><strong>光敏电阻传感器</strong><br>
-<strong>热敏电阻传感器</strong><br>
-<strong>对射式红外传感器</strong><br>
-<strong>反射式红外传感器</strong></p>
-<p><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image.png" alt="alt text"></p>
-<h3 id="硬件电路">硬件电路</h3>
-<p><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-1.png" alt="alt text"></p>
-<h2 id="C语言部分学习">C语言部分学习</h2>
-<h3 id="c语言数据类型">c语言数据类型</h3>
-<p><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-2.png" alt="alt text"></p>
-<p>注意stdint关键字，ST关键字</p>
-<p>c语言宏定义</p>
-<p>typedef 只针对于变量类型<br>
-更安全</p>
-<p>区别</p>
-<p>结构体:<br>
-组合不同的结构类型</p>
-<pre><code class="highlight c"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span>
-
-<span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span>
-&#123;
-    <span class="type">int</span> a;
-    <span class="type">int</span> b[<span class="number">5</span>];
-    
-    <span class="class"><span class="keyword">struct</span>&#123;</span><span class="type">char</span> x;<span class="type">int</span> y;<span class="type">float</span> z;&#125; c;
-        
-
-&#125;</code></pre>
-<p>枚举</p>
-<pre><code class="highlight c"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span>
-
-<span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;
-    <span class="class"><span class="keyword">enum</span>&#123;</span>M =<span class="number">1</span>; T = <span class="number">2</span>; W = <span class="number">3</span>&#125; week; <span class="comment">//顺序值，可以不写=2,=3</span>
-    
-    week = M;
-    week = <span class="number">2</span>;
-    
-    print
-&#125;</code></pre>
-<p>在给定的参数里面赋值</p>
-<p>枚举也是一个宏定义的集合</p>
-<p>#3.4按键控制LED<br>
-使用的接法，第一种<br>
-<img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-3.png" alt="alt text"></p>
-<p>模块化编程的方式</p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/" class="go-post">阅读全文</a>
 </div>
 
 

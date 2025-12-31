@@ -183,6 +183,49 @@
         
 
 <div class="post">
+    <a href="/2025/04/28/%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%BD%91%E7%BB%9CNIN/">
+        <h2 class="post-title">网络中的网络NIN</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2025/4/28
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p>卷积层需要较少的参数<br>
+但卷积层后的第一个全连接层的参数很高<br>
+参数的计算=输入的通道数x输出的通道数x高x宽<br>
+VGG占用的内存非常的大<br>
+NIN的思想就是，完全不要全连接层<br>
+MLP<br>
+一个卷积层加两个全连接层<br>
+整体架构:<br>
+无全连接层<br>
+交替使用NIN块和步幅为2的最大池化层<br>
+逐步减小高宽和增大通道数<br>
+最后使用全局平均池化层得到输出<br>
+其输入通道数是类别数</p>
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2025/04/28/%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%BD%91%E7%BB%9CNIN/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
     <a href="/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/">
         <h2 class="post-title">使用块的网络VGG</h2>
     </a>
@@ -632,50 +675,6 @@ Ollama自带控制台对话界面体验总归是不太好，接下来部署 Web 
         
     </div>
     <a href="/2024/10/07/%E5%9B%BD%E5%BA%86%E4%B8%83%E5%A4%A9%E6%80%BB%E7%BB%93/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/">
-        <h2 class="post-title">常用网站指北</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2024/10/7
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <p>计算机教育中缺失的一课<br>
-<a target="_blank" rel="noopener" href="https://missing-semester-cn.github.io/">https://missing-semester-cn.github.io/</a><br>
-CS自学指南<br>
-<a target="_blank" rel="noopener" href="https://csdiy.wiki/">https://csdiy.wiki/</a><br>
-微软官方的Learn<br>
-<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/">https://learn.microsoft.com/zh-cn/</a><br>
-GitHub<br>
-<a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a><br>
-语言学习<br>
-<a target="_blank" rel="noopener" href="https://www.runoob.com/">https://www.runoob.com/</a><br>
-kicad官网指南<br>
-<a target="_blank" rel="noopener" href="https://dev-docs.kicad.org/zh-cn/">https://dev-docs.kicad.org/zh-cn/</a><br>
-renpy引擎官方文档<br>
-<a target="_blank" rel="noopener" href="https://doc.renpy.cn/zh-CN">https://doc.renpy.cn/zh-CN</a></p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-        
-    </div>
-    <a href="/2024/10/07/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8C%87%E5%8C%97/" class="go-post">阅读全文</a>
 </div>
 
 
