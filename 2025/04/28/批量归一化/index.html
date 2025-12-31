@@ -169,11 +169,34 @@
         </span>
         
         
+        <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
+            
+            
+            <span class="tag">
+                
+                <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" style="color: #00bcd4">
+                    深度学习
+                </a>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/%E6%89%B9%E9%87%8F%E5%BD%92%E4%B8%80%E5%8C%96/" style="color: #ffa2c4">
+                    批量归一化
+                </a>
+            </span>
+            
+        </span>
+        
     </div>
     
     <div class="content" v-pre>
-        <p>损失出现在最后，后面的层训练较快<br>
-数据在最底部<br>
+        <h2 id="问题分析">问题分析</h2>
+<p>损失出现在最后，后面的层训练较快，数据在最底部。</p>
+<p>底部的层训练较慢，底部层一变化，所有都得跟着变，最后的那些层需要重新学习多次，导致收敛变慢。<br>
 底部的层训练较慢<br>
 底部层一变化，所有都得跟着变<br>
 最后的那些层需要重新学习多次<br>

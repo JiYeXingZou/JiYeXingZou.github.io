@@ -205,12 +205,15 @@
 <li>按键控制LED</li>
 <li>光敏传感器控制蜂鸣器</li>
 </ol>
-<p>C语言数据类型<br>
-typedef<br>
-宏定义<br>
-指针</p>
-<p>###按键介绍<br>
-<img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-8.png" alt="alt text"></p>
+<h2 id="C语言预备知识">C语言预备知识</h2>
+<ul>
+<li>C语言数据类型</li>
+<li>typedef</li>
+<li>宏定义</li>
+<li>指针</li>
+</ul>
+<h2 id="按键介绍">按键介绍</h2>
+<p><img src="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/image-8.png" alt="alt text"></p>
 <p>处理按键抖动的方法：对于按键抖动进行过滤</p>
 <h3 id="传感器模块介绍">传感器模块介绍</h3>
 <p><strong>光敏电阻传感器</strong><br>
@@ -264,7 +267,26 @@ typedef<br>
     </div>
     <div class="post-tags">
         
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
         
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/STM32/" style="color: #00a596">STM32</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/GPIO/" style="color: #03a9f4">GPIO</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" style="color: #00a596">嵌入式</a>
+        </span>
         
     </div>
     <a href="/2024/07/17/GPIO%E8%BE%93%E5%85%A5/" class="go-post">阅读全文</a>
@@ -288,11 +310,15 @@ typedef<br>
     <div class="description">
         <div class="content" v-pre>
             
-            <p>GPIO通用输入输出口<br>
-可配置为8中输入输出模式<br>
-引脚电平：0V~3.3v，部分引脚可以容忍5V<br>
-输出模式下：可控制端口输出高低电平，用以驱动LED，控制蜂鸣器。模拟通讯协议输出时序等<br>
-输入模式：可读取端口的高低电平或电压，用于读取按键输入，外接模块电平信号输入，ADC电压采集，模拟通信协议接受数据等<br>
+            <h2 id="GPIO通用输入输出口">GPIO通用输入输出口</h2>
+<ul>
+<li>可配置为8种输入输出模式</li>
+<li>引脚电平：0V~3.3V，部分引脚可以容忍5V</li>
+</ul>
+<h3 id="输出模式">输出模式</h3>
+<p>可控制端口输出高低电平，用以驱动LED，控制蜂鸣器，模拟通讯协议输出时序等</p>
+<h3 id="输入模式">输入模式</h3>
+<p>可读取端口的高低电平或电压，用于读取按键输入，外接模块电平信号输入，ADC电压采集，模拟通信协议接收数据等<br>
 <img src="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/image.png" alt="alt text"></p>
 <p>施密特触发器：高于上线和低于下限，输出才会变化<br>
 将信号进行整形<br>
@@ -320,7 +346,26 @@ GPIO模式<br>
     </div>
     <div class="post-tags">
         
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
         
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/STM32/" style="color: #03a9f4">STM32</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/GPIO/" style="color: #00bcd4">GPIO</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" style="color: #03a9f4">嵌入式</a>
+        </span>
         
     </div>
     <a href="/2024/07/17/GPIO%E8%BE%93%E5%87%BA/" class="go-post">阅读全文</a>
@@ -344,11 +389,13 @@ GPIO模式<br>
     <div class="description">
         <div class="content" v-pre>
             
-            <p><strong>STM32</strong>:STM32是ST公司基于ARMCortex-M内核开发的32位微控制器<br>
-ST：公司，M:Microcontroller<br>
-微控制器：MCU，单片机<br>
-基于ARM内核的芯片<br>
-STM32 f1</p>
+            <p><strong>STM32</strong>:STM32是ST公司基于ARMCortex-M内核开发的32位微控制器</p>
+<ul>
+<li><strong>ST</strong>：公司，M:Microcontroller</li>
+<li><strong>微控制器</strong>：MCU，单片机</li>
+<li><strong>基于ARM内核的芯片</strong></li>
+<li>STM32 f1</li>
+</ul>
 <p>ARM：ARM公司还有ARM处理器内核<br>
 Cortex-A系列：高端应用<br>
 Cortex-R系列：实时<br>
@@ -377,7 +424,26 @@ ROM：64k（Flash）程序存储器<br>
     </div>
     <div class="post-tags">
         
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
         
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/STM32/" style="color: #00a596">STM32</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" style="color: #00bcd4">嵌入式</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="color: #00a596">学习笔记</a>
+        </span>
         
     </div>
     <a href="/2024/07/17/%E5%B5%8C%E5%85%A5%E5%BC%8F%E9%A2%84%E5%A4%87%E7%9F%A5%E8%AF%86/" class="go-post">阅读全文</a>
@@ -411,7 +477,21 @@ ROM：64k（Flash）程序存储器<br>
     </div>
     <div class="post-tags">
         
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
         
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D/" style="color: #ff7d73">个人介绍</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="color: #ffa2c4">博客</a>
+        </span>
         
     </div>
     <a href="/2024/05/09/Welcome/" class="go-post">阅读全文</a>

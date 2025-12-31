@@ -6,7 +6,7 @@
   <link href="https://jiyexingzou.github.io/atom.xml" rel="self"/>
   
   <link href="https://jiyexingzou.github.io/"/>
-  <updated>2025-12-31T13:35:32.265Z</updated>
+  <updated>2025-12-31T14:16:06.345Z</updated>
   <id>https://jiyexingzou.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://jiyexingzou.github.io/2025/12/31/2025%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
     <id>https://jiyexingzou.github.io/2025/12/31/2025%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
     <published>2025-12-31T13:03:04.000Z</published>
-    <updated>2025-12-31T13:35:32.265Z</updated>
+    <updated>2025-12-31T14:16:06.345Z</updated>
     
     <content type="html"><![CDATA[<h1>总结</h1><p>转眼间2025年就要过去了，是时候来一个年终总结了<br>这一年发生了很多事情，有了两篇论文，找到了实习，遇见了很多人。<br>时间真的过的好快。<br>我自己对于2025年的评价呢，我认为，真的很幸福且充实。<br>大二下的时候，组建了打比赛的团队。<br>大家真的很努力，而且那个时候虽然事情很多很紧张，但是现在一回想，真的做了很多事情。<br>暑假的时候，吵吵合合，也是最后调整过来了。<br>现在已经适应了两个人的生活，感觉自己不再那么自私了。<br>感觉自己离自己的目标又更近一步了。<br>大三上，前面在焦虑和迷茫中度过<br>10月份投的老师，没有了回信，陷入了深深的自我否定<br>还好12月份，勇敢了一把，终于让实习有了着落。<br>我有成熟一点了吗？</p><h1>未来的展望和一些想法</h1><p>明年想要好好去做这段实习，好好复习考研，我真的很害怕我会懈怠。</p><h2 id="实习">实习</h2><p>尽量参与到发表论文，真正获得提升</p><h2 id="明年考研需要做的：">明年考研需要做的：</h2><h3 id="1-6月底">1~6月底</h3><p>过完专业课的一轮和数学三本书<br>408看完网课，做王道练习题，做一个梳理<br>数一，过完三本书，做一些课后练习题<br>英语，过完两轮单词</p><h3 id="7-12月">7~12月</h3><p>二轮，刷真题，九月份开政治</p><h1>尾声</h1><p>2025可能是我本科阶段最后一个好好体验大学生活的时候了，得好好的成为大人啊<br>我感觉我的大学前两年，很多时候没有真正学到东西。后面我能改进一些吗？<br>最后，放一张纱雾镇楼<br><img src="/2025/12/31/2025%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/%E5%92%8C%E6%B3%89%E7%BA%B1%E9%9B%BE-138780755.png" alt="alt text"></p>]]></content>
     
@@ -40,6 +40,10 @@
     
     
     <category term="总结" scheme="https://jiyexingzou.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="年终" scheme="https://jiyexingzou.github.io/tags/%E5%B9%B4%E7%BB%88/"/>
+    
+    <category term="生活" scheme="https://jiyexingzou.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -144,21 +148,26 @@
     <link href="https://jiyexingzou.github.io/2025/11/20/%E6%A0%B7%E5%BC%8F%E8%BF%81%E7%A7%BB/"/>
     <id>https://jiyexingzou.github.io/2025/11/20/%E6%A0%B7%E5%BC%8F%E8%BF%81%E7%A7%BB/</id>
     <published>2025-11-20T13:20:41.000Z</published>
-    <updated>2025-11-23T07:15:17.493Z</updated>
+    <updated>2025-12-31T14:16:02.138Z</updated>
     
-    <content type="html"><![CDATA[<p>样式迁移:将一个图片的风格样式转移到另一个图片上<br>最早的样式迁移:<br>基于CNN的样式迁移<br><img src="/2025/11/20/%E6%A0%B7%E5%BC%8F%E8%BF%81%E7%A7%BB/image-4.png" alt="alt text"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="简介">简介</h2><p>样式迁移：将一个图片的风格样式转移到另一个图片上</p><p>最早的样式迁移：基于CNN的样式迁移<br>基于CNN的样式迁移<br><img src="/2025/11/20/%E6%A0%B7%E5%BC%8F%E8%BF%81%E7%A7%BB/image-4.png" alt="alt text"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;样式迁移:将一个图片的风格样式转移到另一个图片上&lt;br&gt;
-最早的样式迁移:&lt;br&gt;
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;p&gt;样式迁移：将一个图片的风格样式转移到另一个图片上&lt;/p&gt;
+&lt;p&gt;最早的样式迁移：基于CNN的样式迁移&lt;br&gt;
 基于CNN的样式迁移&lt;br&gt;
-&lt;img src=&quot;/2025/11/20/%E6%A0%B7%E5%BC%8F%E8%BF%81%E7%A7%BB/image-4.png&quot; alt=&quot;alt</summary>
+&lt;img src=&quot;/2025/11/20/%E6%A0%B7%E5%BC%8F%E8%BF%</summary>
       
     
     
     
+    
+    <category term="深度学习" scheme="https://jiyexingzou.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="样式迁移" scheme="https://jiyexingzou.github.io/tags/%E6%A0%B7%E5%BC%8F%E8%BF%81%E7%A7%BB/"/>
     
   </entry>
   
@@ -167,23 +176,29 @@
     <link href="https://jiyexingzou.github.io/2025/11/11/%E7%A7%91%E7%A0%94%E5%AE%9E%E4%B9%A0%E5%AF%BB%E6%89%BE%E7%BB%8F%E9%AA%8C/"/>
     <id>https://jiyexingzou.github.io/2025/11/11/%E7%A7%91%E7%A0%94%E5%AE%9E%E4%B9%A0%E5%AF%BB%E6%89%BE%E7%BB%8F%E9%AA%8C/</id>
     <published>2025-11-11T07:14:15.000Z</published>
-    <updated>2025-11-13T13:24:24.619Z</updated>
+    <updated>2025-12-31T14:16:00.338Z</updated>
     
-    <content type="html"><![CDATA[<h1>10 月 21 日</h1><h2 id="USTC-张少峰老师">USTC 张少峰老师</h2><p>投递的USTC人工智能与大数据实验室，张少峰老师，未被回复</p><h1>10 月 28 日</h1><p>再度投递，依旧未回复</p><h1>11 月 11 日</h1><p>找到的招科研实习的老师</p><h2 id="SJTU-张林峰-老师">SJTU 张林峰 老师</h2><p>研究方向:Efficient AI<br>招聘界面:<br><a href="https://zhuanlan.zhihu.com/p/1910049209664660559">https://zhuanlan.zhihu.com/p/1910049209664660559</a><br>实验室主页:<br>www.zhanglinfeng.tech<br>老师邮箱:zhanglinfeng@sjtu.edu.cn</p><h2 id="NJU-刘佳恒老师">NJU 刘佳恒老师</h2><p>南京大学-大规模智能与知识实验室（NJU-LINK, Large-scale Intelligence and Knowledge Lab）<br>老师邮箱:211300096@smail.nju.edu.cn<br>招聘界面:<br><a href="https://www.nju-link.com/zh/post/25-7-21-recruit2/">https://www.nju-link.com/zh/post/25-7-21-recruit2/</a></p><h2 id="RUC-金琴老师">RUC 金琴老师</h2><p>投递邮箱:aim3.ruc@gmail.com<br>邮件中附上简历、兴趣方向和预期的实习时间等信息<br>实验室主页:<br><a href="https://www.ruc-aim3.com/">https://www.ruc-aim3.com/</a><br>招聘界面:<br><a href="https://zhuanlan.zhihu.com/p/1917932252114973992">https://zhuanlan.zhihu.com/p/1917932252114973992</a></p><h2 id="西湖大学-Westlake-university">西湖大学 Westlake university</h2><p>LINs Lab<br>实验室主页:<br><a href="https://lins-lab.github.io/">https://lins-lab.github.io/</a><br>招聘界面:<br><a href="https://zhuanlan.zhihu.com/p/690440155">https://zhuanlan.zhihu.com/p/690440155</a></p><h1>11 月 13日</h1><h2 id="NJU-范崎老师">NJU 范崎老师</h2><p>智能科学与技术学院<br>申请要求：</p><ol><li>热爱科研（最最重要！）</li><li>有一定的相关基础</li><li>在读本科生、硕士生、博士生均可。也欢迎已经毕业的朋友进行科研合作</li><li>线下线上均可</li></ol><p>联系方式：fanqi@nju.edu.cn<br>请附带简历和成绩单</p><h1>已经错过时间但是可以去了解的计划:</h1><h2 id="西湖大学-暑期研究计划">西湖大学 暑期研究计划</h2><h2 id="中国科学院大学-大学生创新实践训练集计划">中国科学院大学 大学生创新实践训练集计划</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="USTC-张少峰老师">USTC 张少峰老师</h2><p>投递的USTC人工智能与大数据实验室，张少峰老师，未被回复</p><h1>10 月 28 日</h1><p>再度投递，依旧未回复</p><h1>11 月 11 日</h1><p>找到的招科研实习的老师</p><h2 id="SJTU-张林峰-老师">SJTU 张林峰 老师</h2><p>研究方向:Efficient AI<br>招聘界面:<br><a href="https://zhuanlan.zhihu.com/p/1910049209664660559">https://zhuanlan.zhihu.com/p/1910049209664660559</a><br>实验室主页:<br>www.zhanglinfeng.tech<br>老师邮箱:zhanglinfeng@sjtu.edu.cn</p><h2 id="NJU-刘佳恒老师">NJU 刘佳恒老师</h2><p>南京大学-大规模智能与知识实验室（NJU-LINK, Large-scale Intelligence and Knowledge Lab）<br>老师邮箱:211300096@smail.nju.edu.cn<br>招聘界面:<br><a href="https://www.nju-link.com/zh/post/25-7-21-recruit2/">https://www.nju-link.com/zh/post/25-7-21-recruit2/</a></p><h2 id="RUC-金琴老师">RUC 金琴老师</h2><p>投递邮箱:aim3.ruc@gmail.com<br>邮件中附上简历、兴趣方向和预期的实习时间等信息<br>实验室主页:<br><a href="https://www.ruc-aim3.com/">https://www.ruc-aim3.com/</a><br>招聘界面:<br><a href="https://zhuanlan.zhihu.com/p/1917932252114973992">https://zhuanlan.zhihu.com/p/1917932252114973992</a></p><h2 id="西湖大学-Westlake-university">西湖大学 Westlake university</h2><p>LINs Lab<br>实验室主页:<br><a href="https://lins-lab.github.io/">https://lins-lab.github.io/</a><br>招聘界面:<br><a href="https://zhuanlan.zhihu.com/p/690440155">https://zhuanlan.zhihu.com/p/690440155</a></p><h1>11 月 13日</h1><h2 id="NJU-范崎老师">NJU 范崎老师</h2><p>智能科学与技术学院<br>申请要求：</p><ol><li>热爱科研（最最重要！）</li><li>有一定的相关基础</li><li>在读本科生、硕士生、博士生均可。也欢迎已经毕业的朋友进行科研合作</li><li>线下线上均可</li></ol><p>联系方式：fanqi@nju.edu.cn<br>请附带简历和成绩单</p><h1>已经错过时间但是可以去了解的计划:</h1><h2 id="西湖大学-暑期研究计划">西湖大学 暑期研究计划</h2><h2 id="中国科学院大学-大学生创新实践训练集计划">中国科学院大学 大学生创新实践训练集计划</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1&gt;10 月 21 日&lt;/h1&gt;
-&lt;h2 id=&quot;USTC-张少峰老师&quot;&gt;USTC 张少峰老师&lt;/h2&gt;
+    <summary type="html">&lt;h2 id=&quot;USTC-张少峰老师&quot;&gt;USTC 张少峰老师&lt;/h2&gt;
 &lt;p&gt;投递的USTC人工智能与大数据实验室，张少峰老师，未被回复&lt;/p&gt;
 &lt;h1&gt;10 月 28 日&lt;/h1&gt;
 &lt;p&gt;再度投递，依旧未回复&lt;/p&gt;
-&lt;h1&gt;11 月 11</summary>
+&lt;h1&gt;11 月 11 日&lt;/h1&gt;
+&lt;p&gt;找到的招科研实习</summary>
       
     
     
     
+    
+    <category term="科研" scheme="https://jiyexingzou.github.io/tags/%E7%A7%91%E7%A0%94/"/>
+    
+    <category term="实习" scheme="https://jiyexingzou.github.io/tags/%E5%AE%9E%E4%B9%A0/"/>
+    
+    <category term="经验" scheme="https://jiyexingzou.github.io/tags/%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -192,7 +207,7 @@
     <link href="https://jiyexingzou.github.io/2025/05/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     <id>https://jiyexingzou.github.io/2025/05/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
     <published>2025-05-09T08:57:20.000Z</published>
-    <updated>2025-05-09T10:52:21.506Z</updated>
+    <updated>2025-12-31T14:15:56.992Z</updated>
     
     <content type="html"><![CDATA[<h1>第一章</h1><h2 id="1-1">1.1</h2><h3 id="1-1-1-计算机网络的概念">1.1_1 计算机网络的概念</h3><p><strong>什么是计算机网络</strong><br>计算机网络是一个将众多分散的，自治的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享和信息传递的系统。<br><strong>计算机网络vs互连网vs互联网</strong><br><strong>计算机网络</strong>:由若干结点和连接这些节点的链路组成的。<br>结点可以是:计算机，集线器，交换机，路由器。<br>链路可以是有线链路，无线链路。<br><strong>互连网</strong>:若干个计算机网络通过路由器连接起来的网络。<br>ISP：互联网服务提供商<br><strong>互联网</strong>：由多个互连网通过路由器连接起来的网络。<br><strong>TCP/IP协议：</strong><br>互联网必须用TCP/IP协议，而互连网则可以用不同的协议。</p><p><img src="/2025/05/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/C:%5CUsers%5Cyunan%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20250509171848595.png" alt="image-20250509171848595"></p><h3 id="1-1-2-计算机网络的组成和功能">1.1_2 计算机网络的组成和功能</h3><p><img src="/2025/05/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/C:%5CUsers%5Cyunan%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20250509172529911.png" alt="image-20250509172529911"></p><p><img src="/2025/05/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/C:%5CUsers%5Cyunan%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20250509172836955.png" alt="image-20250509172836955"></p><p><img src="/2025/05/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/C:%5CUsers%5Cyunan%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20250509172909091.png" alt="image-20250509172909091"></p><p>计算机网络的功能</p><p><img src="/2025/05/09/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/C:%5CUsers%5Cyunan%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20250509181807005.png" alt="image-20250509181807005"></p><h3 id="1-1-3-1-电路交换-报文交换-分组交换">1.1_3_1 电路交换 报文交换 分组交换</h3><p><strong>电路交换</strong>:通过物理线路的连接，动态的分配传输线路资源</p><p><strong>电路交换的优点：</strong><br>通信前从主叫端到被叫端建立一条专用的物理通路，在通信的全部时间内，两个用户始终占用端到端的线路资源。数据直送，传输速率高<br>电路交换更适用于：低频次、大量地传输数据<br><strong>电路交换的缺点：</strong><br>建立/释放连接，需长额外的时间开销</p><p><strong>报文交换:</strong></p><p><strong>报文交换的优点：</strong><br>·通信前无需建立连接<br>数据以“报文”为单位被交换节点间“存储转发”，通信线路可以灵活分配<br>在通信时间内，两个用户无需独占一整条物理线路。相比于电路交换，线路利用率高<br>交换节点支持“差错控制”（通过校验技术）<br><strong>报文交换的缺点：</strong><br>报文不定长，不方便存储转发管理<br>长报文的存储转发时间开销大、缓存开销大长报文容易出错，重传代价高</p><p>**分组交换:**将长报文的数据切成定长的数据</p><p><strong>分组交换的优点：</strong><br>通信前无需建立连接<br>数据以“分组”为单位被交换节点间“存储转发”，通信线路可以灵活分配<br>在通信时间内，两个用户无需独占一整条物理线路。相比于电路交换，线路利用率高<br>交换节点支持“差错控制”（通过校验技术)<br>相比于报文交换，分组交换改进了如下问题：<br>分组定长，方便存储转发管理<br>分组的存储转发时间开销小、缓存开销小<br>分组不易出错，重传代价低<br><strong>分组交换的缺点：</strong><br>相比于报文交换，控制信息占比增加<br>相比于电路交换，依然存在存储转发时延</p><p>虚电路交换</p>]]></content>
     
@@ -209,6 +224,10 @@
     
     
     
+    <category term="学习笔记" scheme="https://jiyexingzou.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机网络" scheme="https://jiyexingzou.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
   </entry>
   
   <entry>
@@ -216,21 +235,28 @@
     <link href="https://jiyexingzou.github.io/2025/04/28/ResNet/"/>
     <id>https://jiyexingzou.github.io/2025/04/28/ResNet/</id>
     <published>2025-04-28T12:00:34.000Z</published>
-    <updated>2025-04-28T12:03:20.092Z</updated>
+    <updated>2025-12-31T14:15:55.138Z</updated>
     
-    <content type="html"><![CDATA[<p>加更多层不会让你变差</p><p>残差块<br>f(x) = x + g(x)</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="核心思想">核心思想</h2><p>加更多层不会让你变差</p><h2 id="残差块">残差块</h2><p>f(x) = x + g(x)</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;加更多层不会让你变差&lt;/p&gt;
-&lt;p&gt;残差块&lt;br&gt;
-f(x) = x + g(x)&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;核心思想&quot;&gt;核心思想&lt;/h2&gt;
+&lt;p&gt;加更多层不会让你变差&lt;/p&gt;
+&lt;h2 id=&quot;残差块&quot;&gt;残差块&lt;/h2&gt;
+&lt;p&gt;f(x) = x + g(x)&lt;/p&gt;
 </summary>
       
     
     
     
+    
+    <category term="深度学习" scheme="https://jiyexingzou.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="ResNet" scheme="https://jiyexingzou.github.io/tags/ResNet/"/>
+    
+    <category term="神经网络" scheme="https://jiyexingzou.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -239,24 +265,26 @@ f(x) = x + g(x)&lt;/p&gt;
     <link href="https://jiyexingzou.github.io/2025/04/28/%E6%89%B9%E9%87%8F%E5%BD%92%E4%B8%80%E5%8C%96/"/>
     <id>https://jiyexingzou.github.io/2025/04/28/%E6%89%B9%E9%87%8F%E5%BD%92%E4%B8%80%E5%8C%96/</id>
     <published>2025-04-28T11:22:38.000Z</published>
-    <updated>2025-04-28T11:24:44.997Z</updated>
+    <updated>2025-12-31T14:15:53.314Z</updated>
     
-    <content type="html"><![CDATA[<p>损失出现在最后，后面的层训练较快<br>数据在最底部<br>底部的层训练较慢<br>底部层一变化，所有都得跟着变<br>最后的那些层需要重新学习多次<br>导致收敛变慢</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="问题分析">问题分析</h2><p>损失出现在最后，后面的层训练较快，数据在最底部。</p><p>底部的层训练较慢，底部层一变化，所有都得跟着变，最后的那些层需要重新学习多次，导致收敛变慢。<br>底部的层训练较慢<br>底部层一变化，所有都得跟着变<br>最后的那些层需要重新学习多次<br>导致收敛变慢</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;损失出现在最后，后面的层训练较快&lt;br&gt;
-数据在最底部&lt;br&gt;
+    <summary type="html">&lt;h2 id=&quot;问题分析&quot;&gt;问题分析&lt;/h2&gt;
+&lt;p&gt;损失出现在最后，后面的层训练较快，数据在最底部。&lt;/p&gt;
+&lt;p&gt;底部的层训练较慢，底部层一变化，所有都得跟着变，最后的那些层需要重新学习多次，导致收敛变慢。&lt;br&gt;
 底部的层训练较慢&lt;br&gt;
-底部层一变化，所有都得跟着变&lt;br&gt;
-最后的那些层需要重新学习多次&lt;br&gt;
-导致收敛变慢&lt;/p&gt;
-</summary>
+底部层一变化，所有都得跟着变&lt;br</summary>
       
     
     
     
+    
+    <category term="深度学习" scheme="https://jiyexingzou.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="批量归一化" scheme="https://jiyexingzou.github.io/tags/%E6%89%B9%E9%87%8F%E5%BD%92%E4%B8%80%E5%8C%96/"/>
     
   </entry>
   
@@ -265,23 +293,29 @@ f(x) = x + g(x)&lt;/p&gt;
     <link href="https://jiyexingzou.github.io/2025/04/28/%E5%90%AB%E5%B9%B6%E8%A1%8C%E8%BF%9E%E7%BB%93%E7%9A%84%E7%BD%91%E7%BB%9CGoogLeNet/"/>
     <id>https://jiyexingzou.github.io/2025/04/28/%E5%90%AB%E5%B9%B6%E8%A1%8C%E8%BF%9E%E7%BB%93%E7%9A%84%E7%BD%91%E7%BB%9CGoogLeNet/</id>
     <published>2025-04-28T10:43:11.000Z</published>
-    <updated>2025-12-30T08:47:03.144Z</updated>
+    <updated>2025-12-31T14:16:04.260Z</updated>
     
-    <content type="html"><![CDATA[<p>GoogLeNet<br>第一个可以做到超过100层的卷积神经网络<br>致敬LeNet<br>Inception块:<br>使用不同窗口大小的卷积层<br><img src="/2025/04/28/%E5%90%AB%E5%B9%B6%E8%A1%8C%E8%BF%9E%E7%BB%93%E7%9A%84%E7%BD%91%E7%BB%9CGoogLeNet/image-2.png" alt="alt text"></p><p>GoogLeNet<br><img src="/2025/04/28/%E5%90%AB%E5%B9%B6%E8%A1%8C%E8%BF%9E%E7%BB%93%E7%9A%84%E7%BD%91%E7%BB%9CGoogLeNet/image-3.png" alt="alt text"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="GoogLeNet">GoogLeNet</h2><p>第一个可以做到超过100层的卷积神经网络，致敬LeNet</p><h3 id="Inception块">Inception块</h3><p>使用不同窗口大小的卷积层<br>致敬LeNet<br>Inception块:<br>使用不同窗口大小的卷积层<br><img src="/2025/04/28/%E5%90%AB%E5%B9%B6%E8%A1%8C%E8%BF%9E%E7%BB%93%E7%9A%84%E7%BD%91%E7%BB%9CGoogLeNet/image-2.png" alt="alt text"></p><p>GoogLeNet<br><img src="/2025/04/28/%E5%90%AB%E5%B9%B6%E8%A1%8C%E8%BF%9E%E7%BB%93%E7%9A%84%E7%BD%91%E7%BB%9CGoogLeNet/image-3.png" alt="alt text"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;GoogLeNet&lt;br&gt;
-第一个可以做到超过100层的卷积神经网络&lt;br&gt;
+    <summary type="html">&lt;h2 id=&quot;GoogLeNet&quot;&gt;GoogLeNet&lt;/h2&gt;
+&lt;p&gt;第一个可以做到超过100层的卷积神经网络，致敬LeNet&lt;/p&gt;
+&lt;h3 id=&quot;Inception块&quot;&gt;Inception块&lt;/h3&gt;
+&lt;p&gt;使用不同窗口大小的卷积层&lt;br&gt;
 致敬LeNet&lt;br&gt;
-Inception块:&lt;br&gt;
-使用不同窗口大小的卷积层&lt;br&gt;
-&lt;img src=&quot;/2025/04/28/%E5%90%AB%E5%B9%B6%E8%A1%8C%E8%</summary>
+In</summary>
       
     
     
     
+    
+    <category term="深度学习" scheme="https://jiyexingzou.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="神经网络" scheme="https://jiyexingzou.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="GoogLeNet" scheme="https://jiyexingzou.github.io/tags/GoogLeNet/"/>
     
   </entry>
   
@@ -290,25 +324,29 @@ Inception块:&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2025/04/28/%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%BD%91%E7%BB%9CNIN/"/>
     <id>https://jiyexingzou.github.io/2025/04/28/%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E7%BD%91%E7%BB%9CNIN/</id>
     <published>2025-04-28T10:09:14.000Z</published>
-    <updated>2025-04-28T10:28:38.664Z</updated>
+    <updated>2025-12-31T14:15:51.614Z</updated>
     
-    <content type="html"><![CDATA[<p>卷积层需要较少的参数<br>但卷积层后的第一个全连接层的参数很高<br>参数的计算=输入的通道数x输出的通道数x高x宽<br>VGG占用的内存非常的大<br>NIN的思想就是，完全不要全连接层<br>MLP<br>一个卷积层加两个全连接层<br>整体架构:<br>无全连接层<br>交替使用NIN块和步幅为2的最大池化层<br>逐步减小高宽和增大通道数<br>最后使用全局平均池化层得到输出<br>其输入通道数是类别数</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="NIN核心思想">NIN核心思想</h2><p>卷积层需要较少的参数，但卷积层后的第一个全连接层的参数很高。<br>参数的计算=输入的通道数x输出的通道数x高x宽<br>VGG占用的内存非常的大<br>NIN的思想就是，完全不要全连接层<br>MLP<br>一个卷积层加两个全连接层<br>整体架构:<br>无全连接层<br>交替使用NIN块和步幅为2的最大池化层<br>逐步减小高宽和增大通道数<br>最后使用全局平均池化层得到输出<br>其输入通道数是类别数</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;卷积层需要较少的参数&lt;br&gt;
-但卷积层后的第一个全连接层的参数很高&lt;br&gt;
+    <summary type="html">&lt;h2 id=&quot;NIN核心思想&quot;&gt;NIN核心思想&lt;/h2&gt;
+&lt;p&gt;卷积层需要较少的参数，但卷积层后的第一个全连接层的参数很高。&lt;br&gt;
 参数的计算=输入的通道数x输出的通道数x高x宽&lt;br&gt;
 VGG占用的内存非常的大&lt;br&gt;
 NIN的思想就是，完全不要全连接层&lt;br&gt;
-MLP&lt;br&gt;
-一个卷积层加两个全连接层&lt;br&gt;
-整体架构:&lt;b</summary>
+MLP&lt;b</summary>
       
     
     
     
+    
+    <category term="深度学习" scheme="https://jiyexingzou.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="神经网络" scheme="https://jiyexingzou.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="NIN" scheme="https://jiyexingzou.github.io/tags/NIN/"/>
     
   </entry>
   
@@ -317,23 +355,30 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/"/>
     <id>https://jiyexingzou.github.io/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/</id>
     <published>2025-04-25T11:44:10.000Z</published>
-    <updated>2025-04-28T10:12:18.376Z</updated>
+    <updated>2025-12-31T14:15:36.924Z</updated>
     
-    <content type="html"><![CDATA[<p>VGG<br>能不能更深更大获得更好的精度<br>更多的全连接层<br>更多的卷积层<br>将卷积层组合成块<br><img src="/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/image.png" alt="alt text"><br>深但窄效果更好<br>多个VGG块后接全连接层<br>不同次数的重复块得到不同的架构<br>VGG-16，VGG-19<br>更大更深的AlexNet<br>非常的占内存</p><pre><code class="highlight python"><span class="keyword">import</span> torch<span class="keyword">from</span> torch <span class="keyword">import</span> nn<span class="keyword">from</span> d2l <span class="keyword">import</span> torch <span class="keyword">as</span> d2l<span class="comment"># VGG块的实现</span><span class="keyword">def</span> <span class="title function_">vgg_block</span>(<span class="params">num_convs, in_channels, out_channels</span>):    layers = []    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(num_convs):        layers.append(nn.Conv2d(in_channels, out_channels,                                kernel_size=<span class="number">3</span>, padding=<span class="number">1</span>))        layers.append(nn.ReLU())        in_channels = out_channels    layers.append(nn.MaxPool2d(kernel_size=<span class="number">2</span>,stride=<span class="number">2</span>))    <span class="keyword">return</span> nn.Sequential(*layers)</code></pre><pre><code class="highlight python">conv_arch = ((<span class="number">1</span>, <span class="number">64</span>), (<span class="number">1</span>, <span class="number">128</span>), (<span class="number">2</span>, <span class="number">256</span>), (<span class="number">2</span>, <span class="number">512</span>), (<span class="number">2</span>, <span class="number">512</span>))    conv_blks = []    in_channels = <span class="number">1</span>    <span class="comment"># 卷积层部分</span>    <span class="keyword">for</span> (num_convs, out_channels) <span class="keyword">in</span> conv_arch:        conv_blks.append(vgg_block(num_convs, in_channels, out_channels))        in_channels = out_channels    <span class="keyword">return</span> nn.Sequential(        *conv_blks, nn.Flatten(),        <span class="comment"># 全连接层部分</span>        nn.Linear(out_channels * <span class="number">7</span> * <span class="number">7</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),        nn.Linear(<span class="number">4096</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),        nn.Linear(<span class="number">4096</span>, <span class="number">10</span>))net = vgg(conv_arch)</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="VGG网络">VGG网络</h2><h3 id="核心思想">核心思想</h3><p>能不能更深更大获得更好的精度？<br>更多的全连接层<br>更多的卷积层<br>将卷积层组合成块<br><img src="/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%9CVGG/image.png" alt="alt text"><br>深但窄效果更好<br>多个VGG块后接全连接层<br>不同次数的重复块得到不同的架构<br>VGG-16，VGG-19<br>更大更深的AlexNet<br>非常的占内存</p><pre><code class="highlight python"><span class="keyword">import</span> torch<span class="keyword">from</span> torch <span class="keyword">import</span> nn<span class="keyword">from</span> d2l <span class="keyword">import</span> torch <span class="keyword">as</span> d2l<span class="comment"># VGG块的实现</span><span class="keyword">def</span> <span class="title function_">vgg_block</span>(<span class="params">num_convs, in_channels, out_channels</span>):    layers = []    <span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(num_convs):        layers.append(nn.Conv2d(in_channels, out_channels,                                kernel_size=<span class="number">3</span>, padding=<span class="number">1</span>))        layers.append(nn.ReLU())        in_channels = out_channels    layers.append(nn.MaxPool2d(kernel_size=<span class="number">2</span>,stride=<span class="number">2</span>))    <span class="keyword">return</span> nn.Sequential(*layers)</code></pre><pre><code class="highlight python">conv_arch = ((<span class="number">1</span>, <span class="number">64</span>), (<span class="number">1</span>, <span class="number">128</span>), (<span class="number">2</span>, <span class="number">256</span>), (<span class="number">2</span>, <span class="number">512</span>), (<span class="number">2</span>, <span class="number">512</span>))    conv_blks = []    in_channels = <span class="number">1</span>    <span class="comment"># 卷积层部分</span>    <span class="keyword">for</span> (num_convs, out_channels) <span class="keyword">in</span> conv_arch:        conv_blks.append(vgg_block(num_convs, in_channels, out_channels))        in_channels = out_channels    <span class="keyword">return</span> nn.Sequential(        *conv_blks, nn.Flatten(),        <span class="comment"># 全连接层部分</span>        nn.Linear(out_channels * <span class="number">7</span> * <span class="number">7</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),        nn.Linear(<span class="number">4096</span>, <span class="number">4096</span>), nn.ReLU(), nn.Dropout(<span class="number">0.5</span>),        nn.Linear(<span class="number">4096</span>, <span class="number">10</span>))net = vgg(conv_arch)</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;VGG&lt;br&gt;
-能不能更深更大获得更好的精度&lt;br&gt;
+    <summary type="html">&lt;h2 id=&quot;VGG网络&quot;&gt;VGG网络&lt;/h2&gt;
+&lt;h3 id=&quot;核心思想&quot;&gt;核心思想&lt;/h3&gt;
+&lt;p&gt;能不能更深更大获得更好的精度？&lt;br&gt;
 更多的全连接层&lt;br&gt;
 更多的卷积层&lt;br&gt;
 将卷积层组合成块&lt;br&gt;
-&lt;img src=&quot;/2025/04/25/%E4%BD%BF%E7%94%A8%E5%9D%97%E7%9A%84%E7%BD%91%E7%BB%</summary>
+&lt;img src=&quot;/2025/04/25/%E4%BD%BF</summary>
       
     
     
     
+    
+    <category term="深度学习" scheme="https://jiyexingzou.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="神经网络" scheme="https://jiyexingzou.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="VGG" scheme="https://jiyexingzou.github.io/tags/VGG/"/>
     
   </entry>
   
@@ -342,22 +387,28 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/"/>
     <id>https://jiyexingzou.github.io/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/</id>
     <published>2024-11-25T12:49:44.000Z</published>
-    <updated>2024-11-25T13:27:52.387Z</updated>
+    <updated>2025-12-31T14:15:34.998Z</updated>
     
-    <content type="html"><![CDATA[<p>好久没更新个人网站了，来冒个泡</p><p>还是渐渐走上了正轨</p><p>开始备赛，组好了队，甚至还有学长帮忙我哭死</p><p>反思：现在报的一些比赛还没有什么含金量，如果要面向就业需要打一些和嵌入式和ai相关的竞赛</p><p>放一张纱雾美图开心一下吧</p><p><img src="/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/74744256_p0_master1200.jpg" alt="前辈，那个我喜欢你！" title="前辈，那个我喜欢你！"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="近况">近况</h2><p>好久没更新个人网站了，来冒个泡。还是渐渐走上了正轨！</p><p>开始备赛，组好了队，甚至还有学长帮忙我哭死</p><p>反思：现在报的一些比赛还没有什么含金量，如果要面向就业需要打一些和嵌入式和ai相关的竞赛</p><p>放一张纱雾美图开心一下吧</p><p><img src="/2024/11/25/%E8%BF%91%E6%9C%9F%E7%9B%AE%E6%A0%87%E4%B8%8E%E5%8F%8D%E6%80%9D/74744256_p0_master1200.jpg" alt="前辈，那个我喜欢你！" title="前辈，那个我喜欢你！"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;好久没更新个人网站了，来冒个泡&lt;/p&gt;
-&lt;p&gt;还是渐渐走上了正轨&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;近况&quot;&gt;近况&lt;/h2&gt;
+&lt;p&gt;好久没更新个人网站了，来冒个泡。还是渐渐走上了正轨！&lt;/p&gt;
 &lt;p&gt;开始备赛，组好了队，甚至还有学长帮忙我哭死&lt;/p&gt;
 &lt;p&gt;反思：现在报的一些比赛还没有什么含金量，如果要面向就业需要打一些和嵌入式和ai相关的竞赛&lt;/p&gt;
-&lt;p&gt;放一张纱雾美图开心一下吧&lt;/p&gt;</summary>
+&lt;p&gt;放一</summary>
       
     
     
     
+    
+    <category term="生活" scheme="https://jiyexingzou.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="反思" scheme="https://jiyexingzou.github.io/tags/%E5%8F%8D%E6%80%9D/"/>
+    
+    <category term="目标" scheme="https://jiyexingzou.github.io/tags/%E7%9B%AE%E6%A0%87/"/>
     
   </entry>
   
@@ -366,26 +417,32 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/10/25/%E7%AB%9E%E8%B5%9B%E5%88%86%E4%BA%AB/"/>
     <id>https://jiyexingzou.github.io/2024/10/25/%E7%AB%9E%E8%B5%9B%E5%88%86%E4%BA%AB/</id>
     <published>2024-10-25T08:14:15.000Z</published>
-    <updated>2024-10-25T09:43:05.558Z</updated>
+    <updated>2025-12-31T14:15:33.315Z</updated>
     
-    <content type="html"><![CDATA[<p>服创，计设，华为ICT大赛，蓝桥杯等比赛经验分享</p><h1>1. 电子科技大学保研政策</h1><p>信软官网搜推免.</p><p>保研流程<br>排名百分之29左右<br>保研名额<br>科研经历</p><p>注意前五学期成绩排名<br>我还有3/5的机会,抓住机会</p><p>保研综合测评成绩</p><h1>学科竞赛</h1><p>能力培养:编程能力,技术能力,系统能力</p><p>就业：百度之星，大疆robomaster，robocon，华为ICT大赛。<br>竞赛中提出的算法创新<br>知识产权，专利，论文.</p><p>完善的竞赛保障</p><p>国三才不会处于劣势</p><p>就业向:<br>高水平企业赞助硬核比赛</p><p>服创，计设，蓝桥，信安。ppt大赛<br>网挑：中国高校计算机大赛</p><p>服创项目投计算机设计大赛</p><p>嵌入式:全国大学生嵌入式芯片与系统设计大赛</p><p>蓝桥杯：电子赛难度低于软件赛</p><p>ppt大赛<br>逻辑是否落地，需求是否真实，吹的天花乱坠<br>正态分布 = 高斯分布<br>算法创新，名字起的长一点。高大上</p><p>找人采访，比如找公安局的民警采访，<br>找公司让人签署合同，让别人感觉你的非常高级.</p><p>最重要的是要志同道合。</p><p>组队阶段保证志向，队友要负责，<br>确定方向是要保研</p><p>戴瑞婷老师！！！！</p><h2 id="组队">组队</h2><p>开发技术需要覆盖:技术栈：前后端，算法，(硬件)</p><p>软实力需要覆盖：审美水平在线(及其重要),视频剪辑，外箱点的，擅长演讲的，细心的<br>没有覆盖这些怎么办呢？<br>淘宝，小红书，咸鱼外包。<br>每个组一定会有优势方案</p><p>去小红书找做ppt的。<br>个人建议不要负责躲雨两个项目。</p><h2 id="团队合作">团队合作</h2><p>服创大赛命题，</p><p>尽量寒假内完成项目开发。前端做的很美观，精细.</p><p>算法，复现，改进，顶会高水平论文。</p><p>团队沟通<br>每周开会</p><p>使用飞书知识库<br>十分遍历的多人在线合作平台</p><p>多和指导老师，学长学姐沟通</p><h1>服创</h1><p>视频做的好<br>服务外包</p><p>有硬件是超级加分乡</p><h1>计设</h1><p>评委几乎没有懂计算机技术的</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="概述">概述</h2><p>服创，计设，华为ICT大赛，蓝桥杯等比赛经验分享</p><h1>1. 电子科技大学保研政策</h1><p>信软官网搜推免.</p><p>保研流程<br>排名百分之29左右<br>保研名额<br>科研经历</p><p>注意前五学期成绩排名<br>我还有3/5的机会,抓住机会</p><p>保研综合测评成绩</p><h1>学科竞赛</h1><p>能力培养:编程能力,技术能力,系统能力</p><p>就业：百度之星，大疆robomaster，robocon，华为ICT大赛。<br>竞赛中提出的算法创新<br>知识产权，专利，论文.</p><p>完善的竞赛保障</p><p>国三才不会处于劣势</p><p>就业向:<br>高水平企业赞助硬核比赛</p><p>服创，计设，蓝桥，信安。ppt大赛<br>网挑：中国高校计算机大赛</p><p>服创项目投计算机设计大赛</p><p>嵌入式:全国大学生嵌入式芯片与系统设计大赛</p><p>蓝桥杯：电子赛难度低于软件赛</p><p>ppt大赛<br>逻辑是否落地，需求是否真实，吹的天花乱坠<br>正态分布 = 高斯分布<br>算法创新，名字起的长一点。高大上</p><p>找人采访，比如找公安局的民警采访，<br>找公司让人签署合同，让别人感觉你的非常高级.</p><p>最重要的是要志同道合。</p><p>组队阶段保证志向，队友要负责，<br>确定方向是要保研</p><p>戴瑞婷老师！！！！</p><h2 id="组队">组队</h2><p>开发技术需要覆盖:技术栈：前后端，算法，(硬件)</p><p>软实力需要覆盖：审美水平在线(及其重要),视频剪辑，外箱点的，擅长演讲的，细心的<br>没有覆盖这些怎么办呢？<br>淘宝，小红书，咸鱼外包。<br>每个组一定会有优势方案</p><p>去小红书找做ppt的。<br>个人建议不要负责躲雨两个项目。</p><h2 id="团队合作">团队合作</h2><p>服创大赛命题，</p><p>尽量寒假内完成项目开发。前端做的很美观，精细.</p><p>算法，复现，改进，顶会高水平论文。</p><p>团队沟通<br>每周开会</p><p>使用飞书知识库<br>十分遍历的多人在线合作平台</p><p>多和指导老师，学长学姐沟通</p><h1>服创</h1><p>视频做的好<br>服务外包</p><p>有硬件是超级加分乡</p><h1>计设</h1><p>评委几乎没有懂计算机技术的</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;服创，计设，华为ICT大赛，蓝桥杯等比赛经验分享&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
+&lt;p&gt;服创，计设，华为ICT大赛，蓝桥杯等比赛经验分享&lt;/p&gt;
 &lt;h1&gt;1. 电子科技大学保研政策&lt;/h1&gt;
 &lt;p&gt;信软官网搜推免.&lt;/p&gt;
 &lt;p&gt;保研流程&lt;br&gt;
 排名百分之29左右&lt;br&gt;
 保研名额&lt;br&gt;
 科研经历&lt;/p&gt;
-&lt;p&gt;注意前五学期成绩排名&lt;br&gt;
-我还有3/5的</summary>
+&lt;p&gt;注意</summary>
       
     
     
     
+    
+    <category term="竞赛" scheme="https://jiyexingzou.github.io/tags/%E7%AB%9E%E8%B5%9B/"/>
+    
+    <category term="经验" scheme="https://jiyexingzou.github.io/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+    <category term="分享" scheme="https://jiyexingzou.github.io/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
@@ -394,22 +451,29 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/10/22/%E5%A4%A7%E4%BA%8C%E7%AB%9E%E8%B5%9B%E5%B1%95%E6%9C%9B/"/>
     <id>https://jiyexingzou.github.io/2024/10/22/%E5%A4%A7%E4%BA%8C%E7%AB%9E%E8%B5%9B%E5%B1%95%E6%9C%9B/</id>
     <published>2024-10-22T07:44:53.000Z</published>
-    <updated>2024-10-22T07:47:22.291Z</updated>
+    <updated>2025-12-31T14:15:31.191Z</updated>
     
-    <content type="html"><![CDATA[<p>蓝桥杯我选择报python组</p><p>服创赛和计算机设计赛我也打算参加</p><p>希望一年以后能有好成果</p><p>我也想要成为github全是绿点的人o(╥﹏╥)o</p><p><img src="/2024/10/22/%E5%A4%A7%E4%BA%8C%E7%AB%9E%E8%B5%9B%E5%B1%95%E6%9C%9B/fac2433f0441c3454ea4eed41c259074.jpg" alt="alt text" title="放一张图在这里激励我自己"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="竞赛计划">竞赛计划</h2><ul><li>蓝桥杯我选择报Python组</li><li>服创赛和计算机设计赛我也打算参加</li></ul><p>希望一年以后能有好成果！</p><p>我也想要成为github全是绿点的人o(╥﹏╥)o</p><p><img src="/2024/10/22/%E5%A4%A7%E4%BA%8C%E7%AB%9E%E8%B5%9B%E5%B1%95%E6%9C%9B/fac2433f0441c3454ea4eed41c259074.jpg" alt="alt text" title="放一张图在这里激励我自己"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;蓝桥杯我选择报python组&lt;/p&gt;
-&lt;p&gt;服创赛和计算机设计赛我也打算参加&lt;/p&gt;
-&lt;p&gt;希望一年以后能有好成果&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;竞赛计划&quot;&gt;竞赛计划&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;蓝桥杯我选择报Python组&lt;/li&gt;
+&lt;li&gt;服创赛和计算机设计赛我也打算参加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;希望一年以后能有好成果！&lt;/p&gt;
 &lt;p&gt;我也想要成为github全是绿点的人o(╥﹏╥)o&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2024/10/22/%E5%A4%A7%E4%BA%8</summary>
+&lt;p</summary>
       
     
     
     
+    
+    <category term="竞赛" scheme="https://jiyexingzou.github.io/tags/%E7%AB%9E%E8%B5%9B/"/>
+    
+    <category term="规划" scheme="https://jiyexingzou.github.io/tags/%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
@@ -418,19 +482,23 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/10/19/docker%E5%85%A5%E9%97%A8%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
     <id>https://jiyexingzou.github.io/2024/10/19/docker%E5%85%A5%E9%97%A8%E4%B8%8E%E9%85%8D%E7%BD%AE/</id>
     <published>2024-10-19T07:17:01.000Z</published>
-    <updated>2024-10-21T07:41:11.625Z</updated>
+    <updated>2025-12-31T14:15:29.495Z</updated>
     
-    <content type="html"><![CDATA[<p>docker官方文档:<br><a href="https://docs.docker.com/get-started/introduction/get-docker-desktop/">https://docs.docker.com/get-started/introduction/get-docker-desktop/</a></p><p>first docker</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Docker官方文档">Docker官方文档</h2><p><a href="https://docs.docker.com/get-started/introduction/get-docker/">https://docs.docker.com/get-started/introduction/get-docker/</a></p><h2 id="First-Docker">First Docker</h2><p>[待补充]<br><a href="https://docs.docker.com/get-started/introduction/get-docker-desktop/">https://docs.docker.com/get-started/introduction/get-docker-desktop/</a></p><p>first docker</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;docker官方文档:&lt;br&gt;
-&lt;a href=&quot;https://docs.docker.com/get-started/introduction/get-docker-desktop/&quot;&gt;https://docs.docker.com/get-started/introd</summary>
+    <summary type="html">&lt;h2 id=&quot;Docker官方文档&quot;&gt;Docker官方文档&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.docker.com/get-started/introduction/get-docker/&quot;&gt;https://docs.docker.com/get-st</summary>
       
     
     
     
+    
+    <category term="Docker" scheme="https://jiyexingzou.github.io/tags/Docker/"/>
+    
+    <category term="容器" scheme="https://jiyexingzou.github.io/tags/%E5%AE%B9%E5%99%A8/"/>
     
   </entry>
   
@@ -439,20 +507,25 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/10/15/%E6%89%B9%E8%AF%84%E4%B8%8E%E8%87%AA%E6%88%91%E6%89%B9%E8%AF%84/"/>
     <id>https://jiyexingzou.github.io/2024/10/15/%E6%89%B9%E8%AF%84%E4%B8%8E%E8%87%AA%E6%88%91%E6%89%B9%E8%AF%84/</id>
     <published>2024-10-15T07:13:57.000Z</published>
-    <updated>2024-10-15T08:32:22.020Z</updated>
+    <updated>2025-12-31T14:15:26.705Z</updated>
     
-    <content type="html"><![CDATA[<p>最近这几天，发现了我一个最大的问题，就是心存侥幸，总是在不该偷懒的地偷懒，最近发生的两件事，让我深刻意识到了这样做的不好</p><h3 id="未能在入党积极分子中成功结业">未能在入党积极分子中成功结业</h3><p><strong>事情经过</strong>:<br>起因：没有做每日日程提醒，导致忘记去上入党积极分子的第二次课<br>当时没有能够补救的措施，<strong>心存侥幸</strong>以为伪造辅导员签字可以请假，结果失败</p><p>即使是这样还没长教训，最后要求写两千字的学习证明，由于偷懒只写了1000字，并且书写很乱</p><h3 id="未能拿到1000奖学金">未能拿到1000奖学金</h3><p>这个纯纯是自己的锅，在申请奖学金页面，有一个申请理由，自己很敷衍的填了上去，结果最终没有通过专项奖学金。</p><h3 id="反思">反思</h3><p>该如何改正？</p><ol><li>制定每日日程表，做到有事情填上去及时提醒自己。</li><li>绝不能有这种懈怠的思想，这样会让你失去很多的机会</li></ol><p>此外，我还有每日不知道该做什么，三天打鱼，两天晒网的这种态势<br>可以称之为迷惘。</p><p>机会?<br>有同学找我打服创，正在找队友<br>我应该及时的去询问</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="引言">引言</h2><p>最近这几天，发现了我一个最大的问题，就是心存侥幸，总是在不该偷懒的地方偷懒，最近发生的两件事，让我深刻意识到了这样做的不好。</p><h3 id="未能在入党积极分子中成功结业">未能在入党积极分子中成功结业</h3><p><strong>事情经过</strong>:<br>起因：没有做每日日程提醒，导致忘记去上入党积极分子的第二次课<br>当时没有能够补救的措施，<strong>心存侥幸</strong>以为伪造辅导员签字可以请假，结果失败</p><p>即使是这样还没长教训，最后要求写两千字的学习证明，由于偷懒只写了1000字，并且书写很乱</p><h3 id="未能拿到1000奖学金">未能拿到1000奖学金</h3><p>这个纯纯是自己的锅，在申请奖学金页面，有一个申请理由，自己很敷衍的填了上去，结果最终没有通过专项奖学金。</p><h3 id="反思">反思</h3><p>该如何改正？</p><ol><li>制定每日日程表，做到有事情填上去及时提醒自己。</li><li>绝不能有这种懈怠的思想，这样会让你失去很多的机会</li></ol><p>此外，我还有每日不知道该做什么，三天打鱼，两天晒网的这种态势<br>可以称之为迷惘。</p><p>机会?<br>有同学找我打服创，正在找队友<br>我应该及时的去询问</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;最近这几天，发现了我一个最大的问题，就是心存侥幸，总是在不该偷懒的地偷懒，最近发生的两件事，让我深刻意识到了这样做的不好&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;引言&quot;&gt;引言&lt;/h2&gt;
+&lt;p&gt;最近这几天，发现了我一个最大的问题，就是心存侥幸，总是在不该偷懒的地方偷懒，最近发生的两件事，让我深刻意识到了这样做的不好。&lt;/p&gt;
 &lt;h3 id=&quot;未能在入党积极分子中成功结业&quot;&gt;未能在入党积极分子中成功结业&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;事情经过&lt;/strong&gt;:&lt;br</summary>
+&lt;p&gt;&lt;st</summary>
       
     
     
     
+    
+    <category term="生活" scheme="https://jiyexingzou.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="反思" scheme="https://jiyexingzou.github.io/tags/%E5%8F%8D%E6%80%9D/"/>
     
   </entry>
   
@@ -461,18 +534,23 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/10/08/K210%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/"/>
     <id>https://jiyexingzou.github.io/2024/10/08/K210%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/</id>
     <published>2024-10-08T15:09:39.000Z</published>
-    <updated>2024-10-08T15:10:08.861Z</updated>
+    <updated>2025-12-31T14:15:15.540Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/small_po_kid/article/details/113762110">https://blog.csdn.net/small_po_kid/article/details/113762110</a></p><p>咱先放个网址在这里，之后再填坑</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="参考教程">参考教程</h2><p><a href="https://blog.csdn.net/small_po_kid/article/details/113762110">https://blog.csdn.net/small_po_kid/article/details/113762110</a></p><p>咱先放个网址在这里，之后再填坑</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/small_po_kid/article/details/113762110&quot;&gt;https://blog.csdn.net/small_po_kid/article/details/113762110&lt;/a&gt;&lt;/</summary>
+    <summary type="html">&lt;h2 id=&quot;参考教程&quot;&gt;参考教程&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/small_po_kid/article/details/113762110&quot;&gt;https://blog.csdn.net/small_po_kid/article</summary>
       
     
     
     
+    
+    <category term="K210" scheme="https://jiyexingzou.github.io/tags/K210/"/>
+    
+    <category term="教程" scheme="https://jiyexingzou.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -481,23 +559,28 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/10/08/Ollama%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/"/>
     <id>https://jiyexingzou.github.io/2024/10/08/Ollama%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/</id>
     <published>2024-10-08T14:34:33.000Z</published>
-    <updated>2024-10-08T15:06:42.342Z</updated>
+    <updated>2025-12-31T14:15:13.506Z</updated>
     
-    <content type="html"><![CDATA[<p>llama作为一个开源模型<br>在ollama官网下载<br><a href="https://ollama.com/">https://ollama.com/</a></p><p>clone llama的git库即可直接本地部署ai<br>完整教程<br><a href="https://www.cnblogs.com/obullxl/p/18295202/NTopic2024071001">https://www.cnblogs.com/obullxl/p/18295202/NTopic2024071001</a></p><p>基于 WebUI 部署 Ollama 可视化对话界面<br>Ollama自带控制台对话界面体验总归是不太好，接下来部署 Web 可视化聊天界面：</p><p>下载并安装 Node.js 工具：<a href="https://nodejs.org/zh-cn">https://nodejs.org/zh-cn</a><br>下载ollama-webui工程代码：git clone <a href="https://github.com/ollama-webui/ollama-webui-lite">https://github.com/ollama-webui/ollama-webui-lite</a> ollama-webui<br>切换ollama-webui代码的目录：cd ollama-webui<br>设置 Node.js 工具包镜像源（下载提速）：npm config set registry <a href="http://mirrors.cloud.tencent.com/npm/">http://mirrors.cloud.tencent.com/npm/</a><br>安装 Node.js 依赖的工具包：npm install<br>最后，启动 Web 可视化界面：npm run dev</p><p><img src="/2024/10/08/Ollama%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/05.jpg" alt></p><p>如果看到以上输出，代表 Web 可视化界面已经成功了！</p><p>浏览器打开 Web 可视化界面：<a href="http://localhost:3000/">http://localhost:3000/</a></p><p><img src="/2024/10/08/Ollama%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/06.png" alt></p><p>接下来还可以通过python api和java api对于该大语言模型进行封装，上述网址中有，不再赘述</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="简介">简介</h2><p>Llama作为一个开源模型，在Ollama官网下载：<a href="https://ollama.com/">https://ollama.com/</a></p><p>clone Llama的git库即可直接本地部署AI<br>完整教程<br><a href="https://www.cnblogs.com/obullxl/p/18295202/NTopic2024071001">https://www.cnblogs.com/obullxl/p/18295202/NTopic2024071001</a></p><p>基于 WebUI 部署 Ollama 可视化对话界面<br>Ollama自带控制台对话界面体验总归是不太好，接下来部署 Web 可视化聊天界面：</p><p>下载并安装 Node.js 工具：<a href="https://nodejs.org/zh-cn">https://nodejs.org/zh-cn</a><br>下载ollama-webui工程代码：git clone <a href="https://github.com/ollama-webui/ollama-webui-lite">https://github.com/ollama-webui/ollama-webui-lite</a> ollama-webui<br>切换ollama-webui代码的目录：cd ollama-webui<br>设置 Node.js 工具包镜像源（下载提速）：npm config set registry <a href="http://mirrors.cloud.tencent.com/npm/">http://mirrors.cloud.tencent.com/npm/</a><br>安装 Node.js 依赖的工具包：npm install<br>最后，启动 Web 可视化界面：npm run dev</p><p><img src="/2024/10/08/Ollama%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/05.jpg" alt></p><p>如果看到以上输出，代表 Web 可视化界面已经成功了！</p><p>浏览器打开 Web 可视化界面：<a href="http://localhost:3000/">http://localhost:3000/</a></p><p><img src="/2024/10/08/Ollama%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2/06.png" alt></p><p>接下来还可以通过python api和java api对于该大语言模型进行封装，上述网址中有，不再赘述</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;llama作为一个开源模型&lt;br&gt;
-在ollama官网下载&lt;br&gt;
-&lt;a href=&quot;https://ollama.com/&quot;&gt;https://ollama.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;clone llama的git库即可直接本地部署ai&lt;br&gt;
-完整教程&lt;br&gt;
-&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;p&gt;Llama作为一个开源模型，在Ollama官网下载：&lt;a href=&quot;https://ollama.com/&quot;&gt;https://ollama.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;clone Llama的git库即可直接本地部署AI&lt;br&gt;</summary>
       
     
     
     
+    
+    <category term="AI" scheme="https://jiyexingzou.github.io/tags/AI/"/>
+    
+    <category term="Ollama" scheme="https://jiyexingzou.github.io/tags/Ollama/"/>
+    
+    <category term="大语言模型" scheme="https://jiyexingzou.github.io/tags/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="部署" scheme="https://jiyexingzou.github.io/tags/%E9%83%A8%E7%BD%B2/"/>
     
   </entry>
   
@@ -506,7 +589,7 @@ MLP&lt;br&gt;
     <link href="https://jiyexingzou.github.io/2024/10/07/%E5%9B%BD%E5%BA%86%E4%B8%83%E5%A4%A9%E6%80%BB%E7%BB%93/"/>
     <id>https://jiyexingzou.github.io/2024/10/07/%E5%9B%BD%E5%BA%86%E4%B8%83%E5%A4%A9%E6%80%BB%E7%BB%93/</id>
     <published>2024-10-07T10:32:34.000Z</published>
-    <updated>2024-10-07T10:49:49.770Z</updated>
+    <updated>2025-12-31T14:15:08.049Z</updated>
     
     <content type="html"><![CDATA[<h1>我的国庆过的怎么样！</h1><p><em><strong>-国庆七天，我是怎么过的呢？我为什么要写一个总结呢？-</strong></em><br><strong>–写在文章开头</strong></p><p>现在是十月七号，也是国庆七天乐的最后一个晚上了，就我现在的感觉来看，我觉得我的国庆七天过得并不是很愉快。</p><p><strong>为什么!?</strong></p><p>可能是，我感觉，我在国庆的第一天，就没有想好我这几天究竟要干嘛，有一种既要又要的感觉。<br>可以说，假期的一开始，我是想要好好学习七天的。当时唯一给自己定的玩耍的一天就是十月四号的cd28.</p><p>但是，我干了些什么呢？<br>第一天，听说群友要去唱k，我就去了，实际上一共也没有唱几首歌，在那里扣了一个下午的手机。由于我的惰性，在吃喝玩乐回来之后，选择了直接回家。<br>第二天，在家里的我就更加放飞去玩了，但是心里又没有想好究竟玩什么。就在内耗中过去了一天，这一天去检查了一下身体，结果检查出来多项指标不正常，更让我忧心忡忡。<br>第三天，我打算的是早上回学校，但是由于我的拖沓，也是在浑浑噩噩之中玩到了下午，回到了学校，想着明天cd28，干脆今天也不学习了<br>第四天，逛了一天的展，晚上回来更是无心学习<br>第五天，终于打算要学习了，结果在图书馆一个下午就写了几道题，自己更多的时间在内耗和扣手机中度过，晚上被人叫出打了光棒，录了视频，我却还挺开心的？<br>第六天，无心学习，扣手机到12点起床，一个下午同样没做几道题，想要配置树莓派的环境没找到网线，想要学习java没看下去，自己心里还一直惦记着学习rust<br>第七天，早上10点起床，在宿舍床上内耗了一个下午，晚上到图书馆开始写了这个文档。</p><p>可以说，这几天，我是纯粹没有想好该怎么安排，导致七天玩也没玩开心，也没有学到什么。</p><p>这七天让我反思了一下，做事情得有一个自己的计划，告诉自己什么时候该玩，什么时候该学习？</p><p>真的是兴趣问题吗？说实话，现在我干的都是我自己目前最感兴趣的。但是现在还是一无所成，玩倒是玩了不少。</p><p><strong>现在我争取做到以下几点</strong></p><ol><li>放下手机</li><li>有计划的做事</li><li>早睡(这也是国庆七天最困扰我的)</li><li>找到自己真正想做的，做出一定的规模!</li></ol><h2 id="这就是我国庆七天的想法了">这就是我国庆七天的想法了</h2><p>最后放一张和泉纱雾吧</p><p><img src="/2024/10/07/%E5%9B%BD%E5%BA%86%E4%B8%83%E5%A4%A9%E6%80%BB%E7%BB%93/1.jpg" alt="可爱的和泉纱雾" title="在10月六号换了一个头像，很多人问我为什么换，可能是因为我想要洗心革面吧"></p>]]></content>
     
@@ -521,6 +604,12 @@ MLP&lt;br&gt;
     
     
     
+    
+    <category term="总结" scheme="https://jiyexingzou.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="生活" scheme="https://jiyexingzou.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="反思" scheme="https://jiyexingzou.github.io/tags/%E5%8F%8D%E6%80%9D/"/>
     
   </entry>
   
