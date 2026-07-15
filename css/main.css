@@ -909,6 +909,9 @@ ol li {
     }
 }
 @media (max-width: 900px) {
+    #home-head #home-background {
+        background-position: 68% center;
+    }
     #home-head #home-info {
         height: 350px;
         width: 350px;
